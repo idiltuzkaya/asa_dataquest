@@ -1,0 +1,184 @@
+Getting Started: UN World Population Prospects 2024 Dataset
+This guide covers the three files provided for the 2026 DataQuest competition, what's in them, and how to load and start working with them.
+1. What's in the box
+File
+Contents
+Rows
+Years covered
+WPP2024_Demographic_Indicators_Medium_csv.gz
+The main dataset: the UN's single best-estimate ("Medium") series — historical estimates plus the medium-variant projection, as one continuous series
+84,360
+1950–2101
+WPP2024_Demographic_Indicators_OtherVariants_csv.gz
+Optional. Alternative projection scenarios (high/low fertility, constant mortality, zero migration, confidence intervals, etc.) — projected years only
+662,919
+2024–2101
+WPP2024_Demographic_Indicators_notes.csv
+The indicator codebook — what each column abbreviation means and its unit of measurement
+54
+—
+Both .gz files are gzip-compressed CSVs. Programming tools (pandas, R's read_csv) can read them directly without a separate unzip step (see Section 3) — but Excel cannot open a .gz file directly. If you want to use Excel:
+Extract the file first (double-click on Mac; on Windows, a tool like 7-Zip).
+Check the extracted file's name — the UN's archive stores it without a .csv extension (it ends in _csv, not .csv), so most extraction tools will reproduce that extension-less name. Rename it to end in .csv before opening, or Excel won't recognize it as a spreadsheet.
+Open the renamed file in Excel as usual.
+Start with the Medium file. It's the core dataset for most analyses — one row per location per year, with population, fertility, mortality, and migration indicators as columns. Only bring in OtherVariants once you want to ask questions about projection uncertainty (see Section 5).
+2. Key columns to understand before doing anything else
+Column
+What it is
+Why it matters
+Location
+Name of the country, region, or grouping
+—
+ISO3_code
+3-letter country code (e.g. USA, KEN)
+Only populated for actual countries — blank for regions/aggregates. Useful filter.
+LocTypeName
+Indicates what kind of row this is
+Some rows are individual countries; others are regional, income-based, or organizational groupings. Not all of these are labeled consistently — see the pitfalls note below.
+Variant
+Which projection scenario the row belongs to
+In the Medium file, this is always "Medium". In OtherVariants, it takes 18 different values (see Section 5).
+Time
+Calendar year
+Ranges 1950–2101
+
+The location field in this file doesn't only contain individual countries. It also contains regional aggregates, income-group aggregates, and a long tail (~230+) of ad hoc groupings. If you don't work out how to separate actual countries from these groupings before doing any cross-country comparison or aggregation, you will end up double-counting population. 
+
+3. Loading the data
+Python:
+import pandas as pd medium = pd.read_csv(    "WPP2024_Demographic_Indicators_Medium_csv.gz",    compression="gzip",    encoding="utf-8-sig",  # avoids a garbled first column name    low_memory=False       # avoids a noisy (harmless) mixed-type warning)
+R:
+medium <- read.csv(  "WPP2024_Demographic_Indicators_Medium_csv.gz",  fileEncoding = "UTF-8-BOM")
+4. Indicator reference (from the notes file)
+Every column in the Medium and OtherVariants files is one of the indicators below, grouped by topic. Use this as your lookup table rather than guessing from the abbreviation. Note: where a male/female or age-specific breakdown shares the same underlying concept and unit (e.g. Deaths / DeathsMale / DeathsFemale), rows are combined below for readability — the combined description is a summary, not a verbatim quote of each individual entry. For exact per-column wording, see WPP2024_Demographic_Indicators_notes.csv directly.
+Population
+Code
+Name
+Unit
+TPopulation1Jan
+Total Population, as of 1 January
+thousands
+TPopulation1July
+Total Population, as of 1 July
+thousands
+TPopulationMale1July
+Male Population, as of 1 July
+thousands
+TPopulationFemale1July
+Female Population, as of 1 July
+thousands
+PopDensity
+Population Density, as of 1 July
+persons per square km
+PopSexRatio
+Population Sex Ratio, as of 1 July
+males per 100 females
+MedianAgePop
+Median Age, as of 1 July
+years
+NatChange
+Natural Change (Births minus Deaths)
+thousands
+NatChangeRT
+Rate of Natural Change
+per 1,000 population
+PopChange
+Population Change
+thousands
+PopGrowthRate
+Population Growth Rate
+percentage
+DoublingTime
+Population Annual Doubling Time
+years
+Fertility
+Code
+Name
+Unit
+Births
+Births
+thousands
+BirthsMale / BirthsFemale
+Births by sex
+thousands
+Births1519
+Births by women aged 15 to 19
+thousands
+CBR
+Crude Birth Rate
+births per 1,000 population
+TFR
+Total Fertility Rate
+live births per woman
+NRR
+Net Reproduction Rate
+surviving daughters per woman
+MAC
+Mean Age Childbearing
+years
+SRB
+Sex Ratio at Birth
+males per 100 female births
+Mortality
+Code
+Name
+Unit
+Deaths / DeathsMale / DeathsFemale
+Total Deaths, by sex
+thousands
+CDR
+Crude Death Rate
+deaths per 1,000 population
+LEx / LExMale / LExFemale
+Life Expectancy at Birth
+years
+LE15, LE60, LE65, LE80 (+ Male/Female)
+Life Expectancy at ages 15/60/65/80
+years
+InfantDeaths
+Infant Deaths, under age 1
+thousands
+IMR
+Infant Mortality Rate
+infant deaths per 1,000 live births
+LBsurvivingAge1
+Live births surviving to Age 1
+thousands
+Under5Deaths
+Deaths under age 5
+thousands
+Q5
+Under-five Mortality Rate
+deaths under age 5 per 1,000 live births
+Q0040, Q0060 (+ Male/Female)
+Mortality before age 40 / 60
+per 1,000 live births
+Q1550, Q1560 (+ Male/Female)
+Mortality between ages 15–50 / 15–60
+per 1,000 alive at age 15
+Migration
+Code
+Name
+Unit
+NetMigrations
+Net Number of Migrants
+thousands
+CNMR
+Net Migration Rate
+per 1,000 population
+Getting Started guide: an earlier version listed LE60, LE60Male, LE60Female, BirthsMale and BirthsFemale as columns in the data files. These indicators appear in the UN's codebook (the notes file) but are not present in the Medium or OtherVariants data files, and we have not found them in the original UN data either. The data files contain 54 indicator columns.
+5. Estimates vs. projections — and the OtherVariants file (optional)
+The Medium file is a single continuous series, but not all of it is equally “solid”: years through the most recent observed data are estimates built from census and survey data, while later years are the UN's medium-variant projection. One plausible scenario built on stated fertility, mortality, and migration assumptions, not a certainty. 
+The OtherVariants file is not required, but it's there for any team that wants to go further and interrogate that uncertainty directly. It covers 2024–2101 only, and includes:
+Alternative scenarios: High, Low, Constant fertility, Constant mortality, Zero migration, Instant replacement, Momentum, No fertility below age 18, and several more
+Probabilistic intervals: Lower 80 PI, Upper 80 PI, Lower 95 PI, Upper 95 PI, Median PI, Mean — confidence-interval-style bounds from the UN's probabilistic projection model
+A solid submission can be built entirely from the Medium file. 
+6. Suggested starting questions
+How does population age structure (median age, dependency-relevant life-expectancy indicators) diverge across countries or regions over time?
+(Optional, uses OtherVariants) Which countries show the widest spread between High and Low variant projections, and what does that suggest about the uncertainty in their outlook?
+(Optional, uses OtherVariants) How sensitive is a given country's 2100 population projection to the fertility assumption alone (compare Medium vs. Constant fertility vs. High/Low)?
+What's the relationship between net migration patterns and population growth/decline across regions?
+How might you combine several indicators into a single measure of a country's demographic profile, and what choices would that require you to justify?
+Do countries fall into distinct groups based on how their indicators have moved together over time, rather than where they stand in any single year?
+How do fertility, mortality, and migration act together to shape a country's overall population trajectory — and does that relationship differ across regions or income levels?
+Is there a single indicator in this dataset that tells the whole story on its own, or does the interesting story only emerge once you look at several together?

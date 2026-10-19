@@ -1,0 +1,100 @@
+[
+  {
+    "step": 1,
+    "decision": "Load Medium file (utf-8-sig, gzip)",
+    "rows_before": null,
+    "rows_after": 84360,
+    "detail": "67 columns"
+  },
+  {
+    "step": 2,
+    "decision": "Strip whitespace on text columns; Time -> int; verify Variant is constant 'Medium'",
+    "rows_before": 84360,
+    "rows_after": 84360,
+    "detail": "text cols: ['Notes', 'ISO3_code', 'ISO2_code', 'LocTypeName', 'Location', 'Variant']"
+  },
+  {
+    "step": 3,
+    "decision": "Duplicate check (full-row and LocID x Time key)",
+    "rows_before": 84360,
+    "rows_after": 84360,
+    "detail": "full-row dups=0, key dups=0"
+  },
+  {
+    "step": 4,
+    "decision": "Audit LocTypeName (aggregates + unlabelled groupings mixed with countries)",
+    "rows_before": 84360,
+    "rows_after": 84360,
+    "detail": "distinct locations per type: {'<<unlabelled>>': 234, 'Ad Hoc groups': 23, 'Country/Area': 237, 'Development group': 7, 'Geographic region': 7, 'Income group': 9, 'SDG region': 9, 'Special other': 7, 'Subregion': 21, 'World': 1}"
+  },
+  {
+    "step": 5,
+    "decision": "Split countries (LocTypeName=='Country/Area' AND ISO3 present) from aggregates; aggregates saved separately",
+    "rows_before": 84360,
+    "rows_after": 36024,
+    "detail": "237 countries/areas, 318 aggregate/grouping locations"
+  },
+  {
+    "step": 6,
+    "decision": "Reconcile: sum of countries == World row (population, births, deaths), all years",
+    "rows_before": 36024,
+    "rows_after": 36024,
+    "detail": "max relative gap=3.63e-07; naive sum over ALL rows in 2023 = 44.8x world (double counting avoided)"
+  },
+  {
+    "step": 7,
+    "decision": "Drop year 2101: only these numeric columns are populated -> SortOrder, LocID, SDMX_code, LocTypeID, ParentID, VarID, Time, TPopulation1Jan",
+    "rows_before": 36024,
+    "rows_after": 35787,
+    "detail": "237 rows removed; 1-Jan-2101 population kept as `Pop2101` lookup"
+  },
+  {
+    "step": 8,
+    "decision": "Verify balanced panel",
+    "rows_before": 35787,
+    "rows_after": 35787,
+    "detail": "151 years x 237 countries"
+  },
+  {
+    "step": 9,
+    "decision": "Create Region/SubRegion (team list primary; UN ParentID hierarchy for territories)",
+    "rows_before": 35787,
+    "rows_after": 35787,
+    "detail": "195 countries from team list (all name-resolved), 42 territories/dependencies via UN hierarchy; team-vs-UN subregion disagreements: 0 []"
+  },
+  {
+    "step": 10,
+    "decision": "Left-merge supplement (BirthsMale/Female, LE60 + sex) on LocID x Time; validate documented consistency",
+    "rows_before": 35787,
+    "rows_after": 35787,
+    "detail": "no supplement rows for ['Holy See']; max|M+F-Births|=0.0010; LE60 within [male,female] violations=0"
+  },
+  {
+    "step": 11,
+    "decision": "Missing-value audit (1950-2100)",
+    "rows_before": 35787,
+    "rows_after": 35787,
+    "detail": "columns with NaN: {'BirthsFemale': 151, 'BirthsMale': 151, 'DoublingTime': 15938, 'LE60': 151, 'LE60Female': 151, 'LE60Male': 151}. DoublingTime NaN is STRUCTURAL: 10604 rows growth<=0 (undefined) + 5334 rows with growth>0 but doubling time beyond the UN reporting cap (max observed=138.4 yrs). Left as NaN, NOT imputed. Holy See has no supplement rows (documented)."
+  },
+  {
+    "step": 12,
+    "decision": "Logical-validity checks (all demographic accounting identities hold)",
+    "rows_before": 35787,
+    "rows_after": 35787,
+    "detail": "{\"negative population\": 0, \"TFR<=0\": 0, \"LEx outside (0,100)\": 0, \"Male+Female != Total (July, tol 0.01k)\": 0, \"Births-Deaths != NatChange (tol 1e-6)\": 0, \"DeathsM+DeathsF != Deaths (tol 0.01k)\": 0, \"Q0040 > Q0060\": 0, \"IMR > Q5\": 0, \"Births1519 > Births\": 0, \"Female LEx < Male LEx (plausible, kept)\": 173}"
+  },
+  {
+    "step": 13,
+    "decision": "Outliers FLAGGED not removed (real events: Rwanda 1994, Cambodia 1975-79, Kuwait 1990-91, Ukraine 2022 ...). Rules: LEx drop>=3y yoy | |CNMR|>50 per 1000 | |PopGrowthRate|>10%; small_pop = <100k people in 2023",
+    "rows_before": 35787,
+    "rows_after": 35787,
+    "detail": "flag row counts {'is_projection': 18249, 'flag_mortality_shock': 104, 'flag_migration_shock': 305, 'flag_growth_extreme': 91, 'flag_any_shock': 398, 'flag_small_pop': 5587}; 92 countries touched by >=1 shock flag"
+  },
+  {
+    "step": 14,
+    "decision": "Drop constant/redundant columns ['SortOrder', 'LocTypeID', 'LocTypeName', 'ParentID', 'VarID', 'Variant', 'SDMX_code']; reorder",
+    "rows_before": 35787,
+    "rows_after": 35787,
+    "detail": "final shape (35787, 75)"
+  }
+]

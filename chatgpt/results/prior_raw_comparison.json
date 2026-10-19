@@ -1,0 +1,18 @@
+[
+  {
+    "file": "WPP2024_Demographic_Indicators_OtherVariants_csv.gz",
+    "identical_sha256": true
+  },
+  {
+    "file": "WPP2024_Demographic_Indicators_Medium_csv.gz",
+    "identical_sha256": true
+  },
+  {
+    "file": "WPP2024_Demographic_Indicators_notes.csv",
+    "identical_sha256": true
+  },
+  {
+    "file": "WPP2024_Supplement_Births_and_LE60.csv",
+    "identical_sha256": true
+  }
+]

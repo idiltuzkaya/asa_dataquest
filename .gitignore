@@ -6,3 +6,8 @@ __pycache__/
 
 # Raw heavy archives (optional: comment out if you want to track gz files)
 data/*.gz
+
+# slide build
+slides/node_modules/
+slides/package-lock.json
+~$*.pptx

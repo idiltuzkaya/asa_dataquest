@@ -1,0 +1,789 @@
+{
+  "doubling_na_share": 0.4453572526336379,
+  "doubling_na_when_growth_le0": 0.6653281465679508,
+  "identities": {
+    "NatChangeRT_minus_(CBR-CDR)_maxabs": 1.4210854715202004e-14,
+    "PopGrowthRate*10_minus_(NatChangeRT+CNMR)_maxabs": 1.8566999999999987,
+    "corr_IMR_Q5": 0.984184216482923,
+    "corr_TFR_CBR": 0.9774469161284969
+  },
+  "skew_2023": {
+    "TPopulation1Jan": 9.12,
+    "PopDensity": 9.36,
+    "MedianAgePop": 0.05,
+    "TFR": 1.17,
+    "LEx": -0.48,
+    "LE65": 0.3,
+    "IMR": 1.49,
+    "Q1550": 1.16,
+    "CBR": 0.89,
+    "CDR": 1.35,
+    "PopGrowthRate": -0.09,
+    "CNMR": -1.01,
+    "MAC": 0.16,
+    "PopSexRatio": 5.72
+  },
+  "skew_log_2023": {
+    "TPopulation1Jan": -0.59,
+    "PopDensity": -0.19,
+    "MedianAgePop": -0.39,
+    "TFR": 0.29,
+    "LEx": -0.68,
+    "LE65": 0.07,
+    "IMR": -0.07,
+    "Q1550": -0.16,
+    "CBR": 0.13,
+    "CDR": -1.22,
+    "PopGrowthRate": null,
+    "CNMR": null,
+    "MAC": 0.03,
+    "PopSexRatio": 3.98
+  },
+  "modes": {
+    "LEx_1950": 1,
+    "LEx_1985": 1,
+    "LEx_2023": 1,
+    "LEx_2060": 1,
+    "LEx_2100": 1,
+    "TFR_1950": 2,
+    "TFR_1985": 2,
+    "TFR_2023": 1,
+    "TFR_2060": 1,
+    "TFR_2100": 1,
+    "MedianAgePop_1950": 1,
+    "MedianAgePop_1985": 1,
+    "MedianAgePop_2023": 2,
+    "MedianAgePop_2060": 2,
+    "MedianAgePop_2100": 2
+  },
+  "kruskal_eps2": {
+    "LEx": 0.467,
+    "TFR": 0.513,
+    "MedianAgePop": 0.584,
+    "IMR": 0.533,
+    "CNMR": 0.1,
+    "PopGrowthRate": 0.354,
+    "TPopulation1Jan": 0.237
+  },
+  "world_pop_peak_year": 2084,
+  "world_pop_peak_bn": 10.289514658,
+  "world_pop_1950_2023_2100_bn": [
+    2.471424002,
+    8.056505564,
+    10.18660767
+  ],
+  "region_share_1950_2023_2100": {
+    "Africa": [
+      9.1,
+      18.2,
+      37.4
+    ],
+    "Asia": [
+      54.8,
+      59.1,
+      45.4
+    ],
+    "Europe": [
+      22.1,
+      9.3,
+      5.8
+    ],
+    "Americas": [
+      13.4,
+      12.9,
+      10.7
+    ],
+    "Oceania": [
+      0.5,
+      0.6,
+      0.7
+    ]
+  },
+  "world_weighted": {
+    "LEx": [
+      49.18,
+      73.41,
+      81.82
+    ],
+    "TFR": [
+      4.95,
+      2.18,
+      1.8
+    ],
+    "MedianAgePop": [
+      22.51,
+      30.84,
+      42.74
+    ],
+    "PopGrowthRate": [
+      1.74,
+      0.87,
+      -0.13
+    ]
+  },
+  "region_weighted_2023": {
+    "Africa": {
+      "LEx": 64.22,
+      "TFR": 4.12,
+      "MedianAgePop": 19.43
+    },
+    "Asia": {
+      "LEx": 74.48,
+      "TFR": 1.8,
+      "MedianAgePop": 31.94
+    },
+    "Europe": {
+      "LEx": 79.32,
+      "TFR": 1.41,
+      "MedianAgePop": 42.27
+    },
+    "Americas": {
+      "LEx": 77.12,
+      "TFR": 1.72,
+      "MedianAgePop": 33.72
+    },
+    "Oceania": {
+      "LEx": 78.72,
+      "TFR": 2.07,
+      "MedianAgePop": 33.24
+    }
+  },
+  "region_weighted_2100": {
+    "Africa": {
+      "LEx": 75.12,
+      "TFR": 2.01,
+      "MedianAgePop": 35.24
+    },
+    "Asia": {
+      "LEx": 84.88,
+      "TFR": 1.69,
+      "MedianAgePop": 47.04
+    },
+    "Europe": {
+      "LEx": 89.6,
+      "TFR": 1.57,
+      "MedianAgePop": 48.61
+    },
+    "Americas": {
+      "LEx": 87.71,
+      "TFR": 1.64,
+      "MedianAgePop": 47.57
+    },
+    "Oceania": {
+      "LEx": 87.12,
+      "TFR": 1.72,
+      "MedianAgePop": 42.69
+    }
+  },
+  "dispersion_sd": {
+    "LEx": {
+      "1950": 11.69,
+      "1990": 9.76,
+      "2023": 7.01,
+      "2060": 6.75,
+      "2100": 6.49
+    },
+    "TFR": {
+      "1950": 1.64,
+      "1990": 1.86,
+      "2023": 1.18,
+      "2060": 0.46,
+      "2100": 0.22
+    },
+    "MedianAgePop": {
+      "1950": 5.01,
+      "1990": 7.07,
+      "2023": 9.77,
+      "2060": 9.64,
+      "2100": 7.57
+    }
+  },
+  "dispersion_peak_year": {
+    "LEx": 1950,
+    "TFR": 1978,
+    "MedianAgePop": 2037
+  },
+  "top10_share": {
+    "1950": 61.1,
+    "2023": 57.2,
+    "2100": 50.2
+  },
+  "top5_2023": {
+    "India": 1431703.0,
+    "China": 1424261.0,
+    "United States of America": 342475.0,
+    "Indonesia": 280026.0,
+    "Pakistan": 245673.0
+  },
+  "top5_2100": {
+    "India": 1509107.0,
+    "China": 638685.0,
+    "Pakistan": 510572.0,
+    "Nigeria": 476693.0,
+    "Democratic Republic of the Congo": 429293.0
+  },
+  "sign_flips_between_vs_within": [
+    {
+      "a": "CDR",
+      "b": "MAC",
+      "between": -0.15,
+      "within": 0.35
+    }
+  ],
+  "corr_pooled_pairs": {
+    "TFR~MedianAgePop": -0.91,
+    "LEx~MedianAgePop": 0.9,
+    "LEx~TFR": -0.85,
+    "IMR~LEx": -0.97,
+    "CBR~TFR": 0.96,
+    "PopGrowthRate~CNMR": 0.18,
+    "PopGrowthRate~TFR": 0.77,
+    "CDR~LEx": -0.05,
+    "MAC~TFR": -0.39
+  },
+  "corr_within_pairs": {
+    "TFR~MedianAgePop": -0.71,
+    "LEx~MedianAgePop": 0.81,
+    "LEx~TFR": -0.87,
+    "CDR~LEx": -0.42,
+    "PopGrowthRate~CNMR": 0.75,
+    "MAC~TFR": -0.13
+  },
+  "vif": {
+    "PopGrowthRate": 731.4,
+    "CBR": 481.7,
+    "CNMR": 369.1,
+    "CDR": 75.0,
+    "LEx": 65.4,
+    "TFR": 40.5,
+    "MedianAgePop": 27.4,
+    "LE65": 17.0,
+    "Q1550": 16.7,
+    "IMR": 14.2,
+    "MAC": 2.3,
+    "PopSexRatio": 1.4
+  },
+  "pca_var": [
+    56.4,
+    17.8,
+    9.5,
+    6.0
+  ],
+  "pca_loadings_top": {
+    "PC1": [
+      "MedianAgePop",
+      "CBR",
+      "LEx",
+      "IMR"
+    ],
+    "PC2": [
+      "CNMR",
+      "PopGrowthRate",
+      "CDR",
+      "PopSexRatio"
+    ]
+  },
+  "silhouette": {
+    "2": 0.386,
+    "3": 0.295,
+    "4": 0.269,
+    "5": 0.269,
+    "6": 0.278,
+    "7": 0.275,
+    "8": 0.276
+  },
+  "k_best": 2,
+  "pcs_for_90pct": 5,
+  "cluster_region_crosstab": {
+    "Africa": {
+      "0": 53,
+      "1": 5
+    },
+    "Americas": {
+      "0": 17,
+      "1": 38
+    },
+    "Asia": {
+      "0": 25,
+      "1": 26
+    },
+    "Europe": {
+      "0": 0,
+      "1": 50
+    },
+    "Oceania": {
+      "0": 15,
+      "1": 8
+    }
+  },
+  "mig_top": {
+    "senders": {
+      "Bangladesh": -22.06,
+      "Pakistan": -20.2,
+      "India": -11.43,
+      "China": -9.53,
+      "Ukraine": -6.15
+    },
+    "receivers": {
+      "United Kingdom": 6.64,
+      "Germany": 7.13,
+      "Saudi Arabia": 7.26,
+      "Russian Federation": 9.14,
+      "United States of America": 34.28
+    }
+  },
+  "mig_dominant_share_2023": {
+    "Africa": 6.9,
+    "Asia": 25.5,
+    "Europe": 70.0,
+    "Americas": 43.6,
+    "Oceania": 43.5
+  },
+  "mig_dominant_share_2100": {
+    "Africa": 8.6,
+    "Asia": 0.0,
+    "Europe": 8.0,
+    "Americas": 3.6,
+    "Oceania": 21.7
+  },
+  "highest_sex_ratio_2023": [
+    {
+      "Location": "Qatar",
+      "PopSexRatio": 251.1,
+      "CNMR": 13.4
+    },
+    {
+      "Location": "United Arab Emirates",
+      "PopSexRatio": 177.9,
+      "CNMR": 28.2
+    },
+    {
+      "Location": "Maldives",
+      "PopSexRatio": 163.8,
+      "CNMR": -5.5
+    },
+    {
+      "Location": "Oman",
+      "PopSexRatio": 163.7,
+      "CNMR": 31.0
+    },
+    {
+      "Location": "Bahrain",
+      "PopSexRatio": 163.7,
+      "CNMR": 12.7
+    },
+    {
+      "Location": "Kuwait",
+      "PopSexRatio": 157.4,
+      "CNMR": 10.3
+    }
+  ],
+  "share_pop_growth_from_migration_2023": 0.38549422336328626,
+  "le_gap_2023_mean": 5.244883544303797,
+  "neg_gap_total_rows": 173,
+  "neg_gap_by_decade": {
+    "1950": 58,
+    "1960": 55,
+    "1970": 34,
+    "1980": 20,
+    "1990": 5,
+    "2000": 1
+  },
+  "neg_gap_countries_top": {
+    "Bangladesh": 44,
+    "India": 32,
+    "Pakistan": 25,
+    "Iran (Islamic Republic of)": 21,
+    "Cook Islands": 18,
+    "Nepal": 14,
+    "Tokelau": 8,
+    "North Macedonia": 7
+  },
+  "boundary": {
+    "LEx": {
+      "median_abs_change_2014_23": 0.2944,
+      "median_abs_change_2024_33": 0.1609,
+      "mannwhitney_p": 1.1222042723610434e-125
+    },
+    "TFR": {
+      "median_abs_change_2014_23": 0.0419,
+      "median_abs_change_2024_33": 0.0124,
+      "mannwhitney_p": 3.161117732891994e-161
+    },
+    "MedianAgePop": {
+      "median_abs_change_2014_23": 0.2542,
+      "median_abs_change_2024_33": 0.2773,
+      "mannwhitney_p": 3.8311190605857355e-08
+    },
+    "PopGrowthRate": {
+      "median_abs_change_2014_23": 0.093,
+      "median_abs_change_2024_33": 0.032,
+      "mannwhitney_p": 2.858013932130851e-152
+    }
+  },
+  "monotone_share_2024_2100": {
+    "LEx": 1.0,
+    "TFR": 0.392,
+    "MedianAgePop": 0.586,
+    "TPopulation1Jan": 0.506
+  },
+  "monotone_share_1950_2023": {
+    "LEx": 0.004,
+    "TFR": 0.004,
+    "MedianAgePop": 0.021,
+    "TPopulation1Jan": 0.384
+  },
+  "shock_counts": {
+    "flag_mortality_shock": 104,
+    "flag_migration_shock": 305,
+    "flag_growth_extreme": 91,
+    "flag_any_shock": 398
+  },
+  "shock_top_countries": {
+    "Andorra": 26,
+    "Qatar": 25,
+    "Sint Maarten (Dutch part)": 22,
+    "United Arab Emirates": 21,
+    "Northern Mariana Islands": 21,
+    "Western Sahara": 19,
+    "Kuwait": 17,
+    "Tokelau": 14
+  },
+  "shock_by_decade": {
+    "flag_mortality_shock": {
+      "1950": 7,
+      "1960": 10,
+      "1970": 18,
+      "1980": 18,
+      "1990": 17,
+      "2000": 3,
+      "2010": 11,
+      "2020": 20
+    },
+    "flag_migration_shock": {
+      "1950": 24,
+      "1960": 62,
+      "1970": 52,
+      "1980": 46,
+      "1990": 52,
+      "2000": 29,
+      "2010": 31,
+      "2020": 9
+    },
+    "flag_growth_extreme": {
+      "1950": 4,
+      "1960": 21,
+      "1970": 23,
+      "1980": 15,
+      "1990": 17,
+      "2000": 6,
+      "2010": 4,
+      "2020": 1
+    }
+  },
+  "shock_in_projection": 1,
+  "car_lex": {
+    "2005": 48.2,
+    "2008": 49.9,
+    "2009": 14.7,
+    "2010": 46.9,
+    "2018": 52.3,
+    "2019": 31.5,
+    "2021": 40.3,
+    "2022": 18.8,
+    "2023": 57.4
+  },
+  "lex_min": [
+    {
+      "Location": "South Sudan",
+      "Time": 1988,
+      "LEx": 11.0
+    },
+    {
+      "Location": "Cambodia",
+      "Time": 1977,
+      "LEx": 11.3
+    },
+    {
+      "Location": "Cambodia",
+      "Time": 1978,
+      "LEx": 11.6
+    }
+  ],
+  "tfr_below_repl": {
+    "never_by_2100": 13,
+    "already_in_1950": 4,
+    "n_countries_2023": 130,
+    "popshare_2023": 67.3,
+    "popshare_2050": 69.0,
+    "popshare_2100": 87.0,
+    "n_countries_2100": 224
+  },
+  "never_below_repl": [
+    "Angola",
+    "Chad",
+    "Mayotte",
+    "Congo",
+    "Democratic Republic of the Congo",
+    "Benin",
+    "C\u00f4te d'Ivoire",
+    "Mauritania",
+    "Vanuatu",
+    "Somalia",
+    "Sudan",
+    "Togo",
+    "United Republic of Tanzania"
+  ],
+  "median_year_below_repl_by_region": {
+    "Africa": 2076.5,
+    "Americas": 2004.0,
+    "Asia": 2014.0,
+    "Europe": 1973.0,
+    "Oceania": 2047.0
+  },
+  "serial": [
+    {
+      "indicator": "LEx",
+      "segment": "1950-2023 (estimates)",
+      "median_lag1_autocorr_levels": 0.997,
+      "median_lag1_autocorr_first_diff": 0.061,
+      "median_linear_trend_R2": 0.937
+    },
+    {
+      "indicator": "LEx",
+      "segment": "2024-2100 (projection)",
+      "median_lag1_autocorr_levels": 1.0,
+      "median_lag1_autocorr_first_diff": 0.833,
+      "median_linear_trend_R2": 0.998
+    },
+    {
+      "indicator": "TFR",
+      "segment": "1950-2023 (estimates)",
+      "median_lag1_autocorr_levels": 0.998,
+      "median_lag1_autocorr_first_diff": 0.775,
+      "median_linear_trend_R2": 0.827
+    },
+    {
+      "indicator": "TFR",
+      "segment": "2024-2100 (projection)",
+      "median_lag1_autocorr_levels": 1.0,
+      "median_lag1_autocorr_first_diff": 0.865,
+      "median_linear_trend_R2": 0.914
+    },
+    {
+      "indicator": "MedianAgePop",
+      "segment": "1950-2023 (estimates)",
+      "median_lag1_autocorr_levels": 0.999,
+      "median_lag1_autocorr_first_diff": 0.946,
+      "median_linear_trend_R2": 0.819
+    },
+    {
+      "indicator": "MedianAgePop",
+      "segment": "2024-2100 (projection)",
+      "median_lag1_autocorr_levels": 1.0,
+      "median_lag1_autocorr_first_diff": 0.987,
+      "median_linear_trend_R2": 0.963
+    },
+    {
+      "indicator": "TPopulation1Jan",
+      "segment": "1950-2023 (estimates)",
+      "median_lag1_autocorr_levels": 1.0,
+      "median_lag1_autocorr_first_diff": 0.904,
+      "median_linear_trend_R2": 0.938
+    },
+    {
+      "indicator": "TPopulation1Jan",
+      "segment": "2024-2100 (projection)",
+      "median_lag1_autocorr_levels": 1.0,
+      "median_lag1_autocorr_first_diff": 0.996,
+      "median_linear_trend_R2": 0.961
+    },
+    {
+      "indicator": "CBR",
+      "segment": "1950-2023 (estimates)",
+      "median_lag1_autocorr_levels": 0.996,
+      "median_lag1_autocorr_first_diff": 0.614,
+      "median_linear_trend_R2": 0.885
+    },
+    {
+      "indicator": "CBR",
+      "segment": "2024-2100 (projection)",
+      "median_lag1_autocorr_levels": 0.999,
+      "median_lag1_autocorr_first_diff": 0.964,
+      "median_linear_trend_R2": 0.892
+    },
+    {
+      "indicator": "CDR",
+      "segment": "1950-2023 (estimates)",
+      "median_lag1_autocorr_levels": 0.989,
+      "median_lag1_autocorr_first_diff": 0.146,
+      "median_linear_trend_R2": 0.7
+    },
+    {
+      "indicator": "CDR",
+      "segment": "2024-2100 (projection)",
+      "median_lag1_autocorr_levels": 0.999,
+      "median_lag1_autocorr_first_diff": 0.984,
+      "median_linear_trend_R2": 0.875
+    },
+    {
+      "indicator": "PopGrowthRate",
+      "segment": "1950-2023 (estimates)",
+      "median_lag1_autocorr_levels": 0.893,
+      "median_lag1_autocorr_first_diff": 0.025,
+      "median_linear_trend_R2": 0.315
+    },
+    {
+      "indicator": "PopGrowthRate",
+      "segment": "2024-2100 (projection)",
+      "median_lag1_autocorr_levels": 0.998,
+      "median_lag1_autocorr_first_diff": 0.083,
+      "median_linear_trend_R2": 0.918
+    },
+    {
+      "indicator": "CNMR",
+      "segment": "1950-2023 (estimates)",
+      "median_lag1_autocorr_levels": 0.827,
+      "median_lag1_autocorr_first_diff": -0.016,
+      "median_linear_trend_R2": 0.087
+    },
+    {
+      "indicator": "CNMR",
+      "segment": "2024-2100 (projection)",
+      "median_lag1_autocorr_levels": 0.89,
+      "median_lag1_autocorr_first_diff": -0.241,
+      "median_linear_trend_R2": 0.339
+    },
+    {
+      "indicator": "IMR",
+      "segment": "1950-2023 (estimates)",
+      "median_lag1_autocorr_levels": 0.999,
+      "median_lag1_autocorr_first_diff": 0.846,
+      "median_linear_trend_R2": 0.891
+    },
+    {
+      "indicator": "IMR",
+      "segment": "2024-2100 (projection)",
+      "median_lag1_autocorr_levels": 1.0,
+      "median_lag1_autocorr_first_diff": 0.988,
+      "median_linear_trend_R2": 0.908
+    }
+  ],
+  "region_counts": {
+    "Africa": 58,
+    "Americas": 55,
+    "Asia": 51,
+    "Europe": 50,
+    "Oceania": 23
+  },
+  "n_core": 195,
+  "n_territories": 42,
+  "small_pop_n": 37,
+  "tfr_extremes_2023": {
+    "lowest": [
+      {
+        "Location": "China, Macao SAR",
+        "TFR": 0.66
+      },
+      {
+        "Location": "China, Hong Kong SAR",
+        "TFR": 0.72
+      },
+      {
+        "Location": "Republic of Korea",
+        "TFR": 0.72
+      }
+    ],
+    "highest": [
+      {
+        "Location": "Somalia",
+        "TFR": 6.13
+      },
+      {
+        "Location": "Chad",
+        "TFR": 6.12
+      },
+      {
+        "Location": "Niger",
+        "TFR": 6.06
+      }
+    ]
+  },
+  "lex_extremes_2023": {
+    "lowest": [
+      {
+        "Location": "Nigeria",
+        "LEx": 54.5
+      },
+      {
+        "Location": "Chad",
+        "LEx": 55.1
+      },
+      {
+        "Location": "Lesotho",
+        "LEx": 57.4
+      }
+    ],
+    "highest": [
+      {
+        "Location": "Monaco",
+        "LEx": 86.4
+      },
+      {
+        "Location": "San Marino",
+        "LEx": 85.7
+      },
+      {
+        "Location": "China, Hong Kong SAR",
+        "LEx": 85.5
+      }
+    ]
+  },
+  "median_age_extremes_2023": {
+    "lowest": [
+      {
+        "Location": "Central African Republic",
+        "MedianAgePop": 14.3
+      },
+      {
+        "Location": "Niger",
+        "MedianAgePop": 15.2
+      },
+      {
+        "Location": "Chad",
+        "MedianAgePop": 15.4
+      }
+    ],
+    "highest": [
+      {
+        "Location": "Holy See",
+        "MedianAgePop": 59.6
+      },
+      {
+        "Location": "Monaco",
+        "MedianAgePop": 54.4
+      },
+      {
+        "Location": "Saint Helena",
+        "MedianAgePop": 50.4
+      }
+    ]
+  },
+  "median_age_2100_extremes": [
+    {
+      "Location": "China, Hong Kong SAR",
+      "MedianAgePop": 72.4
+    },
+    {
+      "Location": "Puerto Rico",
+      "MedianAgePop": 65.8
+    },
+    {
+      "Location": "China, Macao SAR",
+      "MedianAgePop": 62.2
+    }
+  ],
+  "small_pop_share_of_shock_rows": 0.3743718592964824,
+  "small_pop_share_of_all_rows": 0.15611814345991562,
+  "territory_share_of_shock_rows": 0.39195979899497485
+}

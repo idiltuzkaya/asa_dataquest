@@ -1,0 +1,6 @@
+{
+  "max_abs_thousands": 4.862000000000052,
+  "median_abs_thousands": 0.0040000000000000036,
+  "rows_above_4_people": 16009,
+  "interpretation": "Source flows do not close exactly. Residual is retained, not forced to zero; reason not established."
+}

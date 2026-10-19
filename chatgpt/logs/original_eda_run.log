@@ -1,0 +1,54 @@
+/Users/buraksahinkucuk/Desktop/asa/chatgpt/audit_original/eda/02_eda_analysis.py:204: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  (rp.div(rp.sum(1), axis=0) * 100).plot.area(ax=ax, color=[PAL[r] for r in REGION_ORDER], lw=0, alpha=.9); shade_proj(ax)
+/Users/buraksahinkucuk/Desktop/asa/chatgpt/audit_original/eda/02_eda_analysis.py:210: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  share = rp.div(rp.sum(1), axis=0) * 100
+/Users/buraksahinkucuk/Desktop/asa/.venv/lib/python3.13/site-packages/numpy/lib/_function_base_impl.py:3037: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/Users/buraksahinkucuk/Desktop/asa/.venv/lib/python3.13/site-packages/numpy/lib/_function_base_impl.py:3037: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+clean panel (35787, 75); 2023 cross-section (237, 75)
+
+[1] structure & quality
+  figure: f01_location_types.png
+  figure: f02_missingness.png
+  identities: {'NatChangeRT_minus_(CBR-CDR)_maxabs': 1.4210854715202004e-14, 'PopGrowthRate*10_minus_(NatChangeRT+CNMR)_maxabs': 1.8566999999999987, 'corr_IMR_Q5': 0.984184216482923, 'corr_TFR_CBR': 0.9774469161284969}
+
+[2] univariate
+  figure: f03_distributions_2023.png
+  figure: f04_distribution_shift.png
+  figure: f05_boxplots_by_region_2023.png
+
+[3] temporal
+  figure: f06_world_population.png
+  figure: f07_regional_trajectories.png
+  figure: f08_subregion_heatmaps.png
+  figure: f09_cross_country_dispersion.png
+  figure: f10_rank_mobility_concentration.png
+
+[4] correlation
+  figure: f11_correlation_pooled_between_within.png
+  figure: f12_clustered_correlation_all.png
+  figure: f13_bivariate_scatter_2023.png
+  figure: f14_transition_paths.png
+
+[5] PCA & clustering
+  figure: f15_pca_clusters.png
+
+[6] migration
+  figure: f16_migration.png
+
+[7] sex differences
+  figure: f17_sex_gap.png
+
+[8] estimate vs projection boundary
+  figure: f18_estimate_projection_boundary.png
+
+[9] shocks
+  figure: f19_shocks.png
+
+[10] fertility transition timing
+  figure: f20_fertility_transition_timing.png
+
+[11] serial structure
+
+DONE. key numbers -> /Users/buraksahinkucuk/Desktop/asa/chatgpt/audit_original/eda/tables/key_numbers.json

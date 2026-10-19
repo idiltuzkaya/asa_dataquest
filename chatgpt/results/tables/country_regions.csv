@@ -1,0 +1,238 @@
+LocID,ISO3_code,Location,ParentID,Region
+108,BDI,Burundi,910,Africa
+174,COM,Comoros,910,Africa
+262,DJI,Djibouti,910,Africa
+232,ERI,Eritrea,910,Africa
+231,ETH,Ethiopia,910,Africa
+404,KEN,Kenya,910,Africa
+450,MDG,Madagascar,910,Africa
+454,MWI,Malawi,910,Africa
+480,MUS,Mauritius,910,Africa
+175,MYT,Mayotte,910,Africa
+508,MOZ,Mozambique,910,Africa
+638,REU,Réunion,910,Africa
+646,RWA,Rwanda,910,Africa
+690,SYC,Seychelles,910,Africa
+706,SOM,Somalia,910,Africa
+728,SSD,South Sudan,910,Africa
+800,UGA,Uganda,910,Africa
+834,TZA,United Republic of Tanzania,910,Africa
+894,ZMB,Zambia,910,Africa
+716,ZWE,Zimbabwe,910,Africa
+24,AGO,Angola,911,Africa
+120,CMR,Cameroon,911,Africa
+140,CAF,Central African Republic,911,Africa
+148,TCD,Chad,911,Africa
+178,COG,Congo,911,Africa
+180,COD,Democratic Republic of the Congo,911,Africa
+226,GNQ,Equatorial Guinea,911,Africa
+266,GAB,Gabon,911,Africa
+678,STP,Sao Tome and Principe,911,Africa
+12,DZA,Algeria,912,Africa
+818,EGY,Egypt,912,Africa
+434,LBY,Libya,912,Africa
+504,MAR,Morocco,912,Africa
+729,SDN,Sudan,912,Africa
+788,TUN,Tunisia,912,Africa
+732,ESH,Western Sahara,912,Africa
+72,BWA,Botswana,913,Africa
+748,SWZ,Eswatini,913,Africa
+426,LSO,Lesotho,913,Africa
+516,NAM,Namibia,913,Africa
+710,ZAF,South Africa,913,Africa
+204,BEN,Benin,914,Africa
+854,BFA,Burkina Faso,914,Africa
+132,CPV,Cabo Verde,914,Africa
+384,CIV,Côte d'Ivoire,914,Africa
+270,GMB,Gambia,914,Africa
+288,GHA,Ghana,914,Africa
+324,GIN,Guinea,914,Africa
+624,GNB,Guinea-Bissau,914,Africa
+430,LBR,Liberia,914,Africa
+466,MLI,Mali,914,Africa
+478,MRT,Mauritania,914,Africa
+562,NER,Niger,914,Africa
+566,NGA,Nigeria,914,Africa
+654,SHN,Saint Helena,914,Africa
+686,SEN,Senegal,914,Africa
+694,SLE,Sierra Leone,914,Africa
+768,TGO,Togo,914,Africa
+398,KAZ,Kazakhstan,5500,Asia
+417,KGZ,Kyrgyzstan,5500,Asia
+762,TJK,Tajikistan,5500,Asia
+795,TKM,Turkmenistan,5500,Asia
+860,UZB,Uzbekistan,5500,Asia
+156,CHN,China,906,Asia
+344,HKG,"China, Hong Kong SAR",906,Asia
+446,MAC,"China, Macao SAR",906,Asia
+158,TWN,"China, Taiwan Province of China",906,Asia
+408,PRK,Dem. People's Republic of Korea,906,Asia
+392,JPN,Japan,906,Asia
+496,MNG,Mongolia,906,Asia
+410,KOR,Republic of Korea,906,Asia
+4,AFG,Afghanistan,5501,Asia
+50,BGD,Bangladesh,5501,Asia
+64,BTN,Bhutan,5501,Asia
+356,IND,India,5501,Asia
+364,IRN,Iran (Islamic Republic of),5501,Asia
+462,MDV,Maldives,5501,Asia
+524,NPL,Nepal,5501,Asia
+586,PAK,Pakistan,5501,Asia
+144,LKA,Sri Lanka,5501,Asia
+96,BRN,Brunei Darussalam,920,Asia
+116,KHM,Cambodia,920,Asia
+360,IDN,Indonesia,920,Asia
+418,LAO,Lao People's Democratic Republic,920,Asia
+458,MYS,Malaysia,920,Asia
+104,MMR,Myanmar,920,Asia
+608,PHL,Philippines,920,Asia
+702,SGP,Singapore,920,Asia
+764,THA,Thailand,920,Asia
+626,TLS,Timor-Leste,920,Asia
+704,VNM,Viet Nam,920,Asia
+51,ARM,Armenia,922,Asia
+31,AZE,Azerbaijan,922,Asia
+48,BHR,Bahrain,922,Asia
+196,CYP,Cyprus,922,Asia
+268,GEO,Georgia,922,Asia
+368,IRQ,Iraq,922,Asia
+376,ISR,Israel,922,Asia
+400,JOR,Jordan,922,Asia
+414,KWT,Kuwait,922,Asia
+422,LBN,Lebanon,922,Asia
+512,OMN,Oman,922,Asia
+634,QAT,Qatar,922,Asia
+682,SAU,Saudi Arabia,922,Asia
+275,PSE,State of Palestine,922,Asia
+760,SYR,Syrian Arab Republic,922,Asia
+792,TUR,Türkiye,922,Asia
+784,ARE,United Arab Emirates,922,Asia
+887,YEM,Yemen,922,Asia
+112,BLR,Belarus,923,Europe
+100,BGR,Bulgaria,923,Europe
+203,CZE,Czechia,923,Europe
+348,HUN,Hungary,923,Europe
+616,POL,Poland,923,Europe
+498,MDA,Republic of Moldova,923,Europe
+642,ROU,Romania,923,Europe
+643,RUS,Russian Federation,923,Europe
+703,SVK,Slovakia,923,Europe
+804,UKR,Ukraine,923,Europe
+208,DNK,Denmark,924,Europe
+233,EST,Estonia,924,Europe
+234,FRO,Faroe Islands,924,Europe
+246,FIN,Finland,924,Europe
+831,GGY,Guernsey,924,Europe
+352,ISL,Iceland,924,Europe
+372,IRL,Ireland,924,Europe
+833,IMN,Isle of Man,924,Europe
+832,JEY,Jersey,924,Europe
+428,LVA,Latvia,924,Europe
+440,LTU,Lithuania,924,Europe
+578,NOR,Norway,924,Europe
+752,SWE,Sweden,924,Europe
+826,GBR,United Kingdom,924,Europe
+8,ALB,Albania,925,Europe
+20,AND,Andorra,925,Europe
+70,BIH,Bosnia and Herzegovina,925,Europe
+191,HRV,Croatia,925,Europe
+292,GIB,Gibraltar,925,Europe
+300,GRC,Greece,925,Europe
+336,VAT,Holy See,925,Europe
+380,ITA,Italy,925,Europe
+412,XKX,Kosovo (under UNSC res. 1244),925,Europe
+470,MLT,Malta,925,Europe
+499,MNE,Montenegro,925,Europe
+807,MKD,North Macedonia,925,Europe
+620,PRT,Portugal,925,Europe
+674,SMR,San Marino,925,Europe
+688,SRB,Serbia,925,Europe
+705,SVN,Slovenia,925,Europe
+724,ESP,Spain,925,Europe
+40,AUT,Austria,926,Europe
+56,BEL,Belgium,926,Europe
+250,FRA,France,926,Europe
+276,DEU,Germany,926,Europe
+438,LIE,Liechtenstein,926,Europe
+442,LUX,Luxembourg,926,Europe
+492,MCO,Monaco,926,Europe
+528,NLD,Netherlands,926,Europe
+756,CHE,Switzerland,926,Europe
+660,AIA,Anguilla,915,Latin America and the Caribbean
+28,ATG,Antigua and Barbuda,915,Latin America and the Caribbean
+533,ABW,Aruba,915,Latin America and the Caribbean
+44,BHS,Bahamas,915,Latin America and the Caribbean
+52,BRB,Barbados,915,Latin America and the Caribbean
+535,BES,"Bonaire, Sint Eustatius and Saba",915,Latin America and the Caribbean
+92,VGB,British Virgin Islands,915,Latin America and the Caribbean
+136,CYM,Cayman Islands,915,Latin America and the Caribbean
+192,CUB,Cuba,915,Latin America and the Caribbean
+531,CUW,Curaçao,915,Latin America and the Caribbean
+212,DMA,Dominica,915,Latin America and the Caribbean
+214,DOM,Dominican Republic,915,Latin America and the Caribbean
+308,GRD,Grenada,915,Latin America and the Caribbean
+312,GLP,Guadeloupe,915,Latin America and the Caribbean
+332,HTI,Haiti,915,Latin America and the Caribbean
+388,JAM,Jamaica,915,Latin America and the Caribbean
+474,MTQ,Martinique,915,Latin America and the Caribbean
+500,MSR,Montserrat,915,Latin America and the Caribbean
+630,PRI,Puerto Rico,915,Latin America and the Caribbean
+652,BLM,Saint Barthélemy,915,Latin America and the Caribbean
+659,KNA,Saint Kitts and Nevis,915,Latin America and the Caribbean
+662,LCA,Saint Lucia,915,Latin America and the Caribbean
+663,MAF,Saint Martin (French part),915,Latin America and the Caribbean
+670,VCT,Saint Vincent and the Grenadines,915,Latin America and the Caribbean
+534,SXM,Sint Maarten (Dutch part),915,Latin America and the Caribbean
+780,TTO,Trinidad and Tobago,915,Latin America and the Caribbean
+796,TCA,Turks and Caicos Islands,915,Latin America and the Caribbean
+850,VIR,United States Virgin Islands,915,Latin America and the Caribbean
+84,BLZ,Belize,916,Latin America and the Caribbean
+188,CRI,Costa Rica,916,Latin America and the Caribbean
+222,SLV,El Salvador,916,Latin America and the Caribbean
+320,GTM,Guatemala,916,Latin America and the Caribbean
+340,HND,Honduras,916,Latin America and the Caribbean
+484,MEX,Mexico,916,Latin America and the Caribbean
+558,NIC,Nicaragua,916,Latin America and the Caribbean
+591,PAN,Panama,916,Latin America and the Caribbean
+32,ARG,Argentina,931,Latin America and the Caribbean
+68,BOL,Bolivia (Plurinational State of),931,Latin America and the Caribbean
+76,BRA,Brazil,931,Latin America and the Caribbean
+152,CHL,Chile,931,Latin America and the Caribbean
+170,COL,Colombia,931,Latin America and the Caribbean
+218,ECU,Ecuador,931,Latin America and the Caribbean
+238,FLK,Falkland Islands (Malvinas),931,Latin America and the Caribbean
+254,GUF,French Guiana,931,Latin America and the Caribbean
+328,GUY,Guyana,931,Latin America and the Caribbean
+600,PRY,Paraguay,931,Latin America and the Caribbean
+604,PER,Peru,931,Latin America and the Caribbean
+740,SUR,Suriname,931,Latin America and the Caribbean
+858,URY,Uruguay,931,Latin America and the Caribbean
+862,VEN,Venezuela (Bolivarian Republic of),931,Latin America and the Caribbean
+60,BMU,Bermuda,918,Northern America
+124,CAN,Canada,918,Northern America
+304,GRL,Greenland,918,Northern America
+666,SPM,Saint Pierre and Miquelon,918,Northern America
+840,USA,United States of America,918,Northern America
+36,AUS,Australia,927,Oceania
+554,NZL,New Zealand,927,Oceania
+242,FJI,Fiji,928,Oceania
+540,NCL,New Caledonia,928,Oceania
+598,PNG,Papua New Guinea,928,Oceania
+90,SLB,Solomon Islands,928,Oceania
+548,VUT,Vanuatu,928,Oceania
+316,GUM,Guam,954,Oceania
+296,KIR,Kiribati,954,Oceania
+584,MHL,Marshall Islands,954,Oceania
+583,FSM,Micronesia (Fed. States of),954,Oceania
+520,NRU,Nauru,954,Oceania
+580,MNP,Northern Mariana Islands,954,Oceania
+585,PLW,Palau,954,Oceania
+16,ASM,American Samoa,957,Oceania
+184,COK,Cook Islands,957,Oceania
+258,PYF,French Polynesia,957,Oceania
+570,NIU,Niue,957,Oceania
+882,WSM,Samoa,957,Oceania
+772,TKL,Tokelau,957,Oceania
+776,TON,Tonga,957,Oceania
+798,TUV,Tuvalu,957,Oceania
+876,WLF,Wallis and Futuna Islands,957,Oceania

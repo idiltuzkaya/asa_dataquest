@@ -1,0 +1,238 @@
+Location,cluster,Region
+Afghanistan,0,Asia
+Albania,1,Europe
+Algeria,0,Africa
+American Samoa,0,Oceania
+Andorra,1,Europe
+Angola,0,Africa
+Antigua and Barbuda,1,Americas
+Azerbaijan,0,Asia
+Argentina,1,Americas
+Australia,1,Oceania
+Austria,1,Europe
+Bahamas,1,Americas
+Bahrain,1,Asia
+Bangladesh,0,Asia
+Armenia,1,Asia
+Barbados,1,Americas
+Belgium,1,Europe
+Bermuda,1,Americas
+Bhutan,0,Asia
+Bolivia (Plurinational State of),0,Americas
+Bosnia and Herzegovina,1,Europe
+Botswana,0,Africa
+Brazil,1,Americas
+Belize,0,Americas
+Solomon Islands,0,Oceania
+British Virgin Islands,1,Americas
+Brunei Darussalam,1,Asia
+Bulgaria,1,Europe
+Myanmar,0,Asia
+Burundi,0,Africa
+Belarus,1,Europe
+Cambodia,0,Asia
+Cameroon,0,Africa
+Canada,1,Americas
+Cabo Verde,1,Africa
+Cayman Islands,1,Americas
+Central African Republic,0,Africa
+Sri Lanka,1,Asia
+Chad,0,Africa
+Chile,1,Americas
+China,1,Asia
+"China, Taiwan Province of China",1,Asia
+Colombia,1,Americas
+Comoros,0,Africa
+Mayotte,0,Africa
+Congo,0,Africa
+Democratic Republic of the Congo,0,Africa
+Cook Islands,1,Oceania
+Costa Rica,1,Americas
+Croatia,1,Europe
+Cuba,1,Americas
+Cyprus,1,Asia
+Czechia,1,Europe
+Benin,0,Africa
+Denmark,1,Europe
+Dominica,1,Americas
+Dominican Republic,0,Americas
+Ecuador,1,Americas
+El Salvador,0,Americas
+Equatorial Guinea,0,Africa
+Ethiopia,0,Africa
+Eritrea,0,Africa
+Estonia,1,Europe
+Faroe Islands,1,Europe
+Falkland Islands (Malvinas),1,Americas
+Fiji,0,Oceania
+Finland,1,Europe
+France,1,Europe
+French Guiana,0,Americas
+French Polynesia,1,Oceania
+Djibouti,0,Africa
+Gabon,0,Africa
+Georgia,1,Asia
+Gambia,0,Africa
+State of Palestine,0,Asia
+Germany,1,Europe
+Ghana,0,Africa
+Gibraltar,1,Europe
+Kiribati,0,Oceania
+Greece,1,Europe
+Greenland,0,Americas
+Grenada,1,Americas
+Guadeloupe,1,Americas
+Guam,1,Oceania
+Guatemala,0,Americas
+Guinea,0,Africa
+Guyana,0,Americas
+Haiti,0,Americas
+Holy See,1,Europe
+Honduras,0,Americas
+"China, Hong Kong SAR",1,Asia
+Hungary,1,Europe
+Iceland,1,Europe
+India,0,Asia
+Indonesia,0,Asia
+Iran (Islamic Republic of),1,Asia
+Iraq,0,Asia
+Ireland,1,Europe
+Israel,1,Asia
+Italy,1,Europe
+Côte d'Ivoire,0,Africa
+Jamaica,0,Americas
+Japan,1,Asia
+Kazakhstan,0,Asia
+Jordan,0,Asia
+Kenya,0,Africa
+Dem. People's Republic of Korea,1,Asia
+Republic of Korea,1,Asia
+Kosovo (under UNSC res. 1244),1,Europe
+Kuwait,1,Asia
+Kyrgyzstan,0,Asia
+Lao People's Democratic Republic,0,Asia
+Lebanon,1,Asia
+Lesotho,0,Africa
+Latvia,1,Europe
+Liberia,0,Africa
+Libya,0,Africa
+Liechtenstein,1,Europe
+Lithuania,1,Europe
+Luxembourg,1,Europe
+"China, Macao SAR",1,Asia
+Madagascar,0,Africa
+Malawi,0,Africa
+Malaysia,1,Asia
+Maldives,1,Asia
+Mali,0,Africa
+Malta,1,Europe
+Martinique,1,Americas
+Mauritania,0,Africa
+Mauritius,1,Africa
+Mexico,0,Americas
+Monaco,1,Europe
+Mongolia,0,Asia
+Republic of Moldova,1,Europe
+Montenegro,1,Europe
+Montserrat,1,Americas
+Morocco,0,Africa
+Mozambique,0,Africa
+Oman,1,Asia
+Namibia,0,Africa
+Nauru,0,Oceania
+Nepal,0,Asia
+Netherlands,1,Europe
+Curaçao,1,Americas
+Aruba,1,Americas
+Sint Maarten (Dutch part),1,Americas
+"Bonaire, Sint Eustatius and Saba",1,Americas
+New Caledonia,1,Oceania
+Vanuatu,0,Oceania
+New Zealand,1,Oceania
+Nicaragua,0,Americas
+Niger,0,Africa
+Nigeria,0,Africa
+Niue,0,Oceania
+Norway,1,Europe
+Northern Mariana Islands,1,Oceania
+Micronesia (Fed. States of),0,Oceania
+Marshall Islands,0,Oceania
+Palau,0,Oceania
+Pakistan,0,Asia
+Panama,1,Americas
+Papua New Guinea,0,Oceania
+Paraguay,0,Americas
+Peru,1,Americas
+Philippines,0,Asia
+Poland,1,Europe
+Portugal,1,Europe
+Guinea-Bissau,0,Africa
+Timor-Leste,0,Asia
+Puerto Rico,1,Americas
+Qatar,1,Asia
+Réunion,1,Africa
+Romania,1,Europe
+Russian Federation,1,Europe
+Rwanda,0,Africa
+Saint Barthélemy,1,Americas
+Saint Helena,1,Africa
+Saint Kitts and Nevis,1,Americas
+Anguilla,1,Americas
+Saint Lucia,1,Americas
+Saint Martin (French part),1,Americas
+Saint Pierre and Miquelon,1,Americas
+Saint Vincent and the Grenadines,0,Americas
+San Marino,1,Europe
+Sao Tome and Principe,0,Africa
+Saudi Arabia,1,Asia
+Senegal,0,Africa
+Serbia,1,Europe
+Seychelles,0,Africa
+Sierra Leone,0,Africa
+Singapore,1,Asia
+Slovakia,1,Europe
+Viet Nam,0,Asia
+Slovenia,1,Europe
+Somalia,0,Africa
+South Africa,0,Africa
+Zimbabwe,0,Africa
+Spain,1,Europe
+South Sudan,0,Africa
+Sudan,0,Africa
+Western Sahara,0,Africa
+Suriname,0,Americas
+Eswatini,0,Africa
+Sweden,1,Europe
+Switzerland,1,Europe
+Syrian Arab Republic,0,Asia
+Tajikistan,0,Asia
+Thailand,1,Asia
+Togo,0,Africa
+Tokelau,0,Oceania
+Tonga,0,Oceania
+Trinidad and Tobago,1,Americas
+United Arab Emirates,1,Asia
+Tunisia,1,Africa
+Türkiye,1,Asia
+Turkmenistan,0,Asia
+Turks and Caicos Islands,1,Americas
+Tuvalu,0,Oceania
+Uganda,0,Africa
+Ukraine,1,Europe
+North Macedonia,1,Europe
+Egypt,0,Africa
+United Kingdom,1,Europe
+Guernsey,1,Europe
+Jersey,1,Europe
+Isle of Man,1,Europe
+United Republic of Tanzania,0,Africa
+United States of America,1,Americas
+United States Virgin Islands,1,Americas
+Burkina Faso,0,Africa
+Uruguay,1,Americas
+Uzbekistan,0,Asia
+Venezuela (Bolivarian Republic of),0,Americas
+Wallis and Futuna Islands,1,Oceania
+Samoa,0,Oceania
+Yemen,0,Asia
+Zambia,0,Africa

@@ -1,0 +1,150 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "independent_analysis_unchanged_since_freeze",
+      "passed": true,
+      "detail": {
+        "file_count": 31,
+        "changed": []
+      }
+    },
+    {
+      "check": "original_project_files_unchanged",
+      "passed": true,
+      "detail": {
+        "file_count": 76,
+        "changed": [],
+        "excluded_Finder_metadata_changes": [
+          ".DS_Store"
+        ]
+      }
+    },
+    {
+      "check": "original_git_checkout_clean",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "raw_source_hashes_match",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "fresh_dropbox_download_matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "main_analysis_checks",
+      "passed": true,
+      "detail": 89
+    },
+    {
+      "check": "second_implementation_passes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "legacy_tables_reproduced",
+      "passed": true,
+      "detail": 27
+    },
+    {
+      "check": "pptx_matches_finalizer_receipt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "presentation_package_integrity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "presentation_layout_geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "six_slides_cover_four_content_references",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "six_speaker_notes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "four_editable_native_charts",
+      "passed": true,
+      "detail": 4
+    },
+    {
+      "check": "four_embedded_chart_workbooks",
+      "passed": true,
+      "detail": 4
+    },
+    {
+      "check": "scatter_contains_exactly_237_real_observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "scatter_matches_analysis",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "pdf_has_six_pages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "rehearsal_under_five_minutes",
+      "passed": true,
+      "detail": 286.072266
+    },
+    {
+      "check": "rehearsal_has_audio_and_video",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "synthetic_rehearsal_disclosed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "document_exists_reports/RAPOR_TR.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "document_exists_reports/DENETIM.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "document_exists_reports/KAYNAKLAR.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "document_exists_reports/TESLIM_KONTROL.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "document_exists_slides/VIDEO_SCRIPT_EN.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "document_exists_slides/VIDEO_SCRIPT_TR.md",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "scope": "File integrity and numeric/structural checks. Separate visual review used Artifact Tool and LibreOffice. Native PowerPoint was not run."
+}

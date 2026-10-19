@@ -1,0 +1,695 @@
+{
+ "pi_lower_bound_zero": {
+  "L95": [
+   "Andorra",
+   "China, Hong Kong SAR",
+   "Kuwait"
+  ],
+  "L80": [
+   "China, Hong Kong SAR"
+  ]
+ },
+ "robustness_alt_path": {
+  "fertility": {
+   "spearman": 0.988,
+   "pearson": 0.99,
+   "median_abs_diff_log": 0.0236,
+   "sign_agreement": 0.996
+  },
+  "mortality": {
+   "spearman": 0.391,
+   "pearson": 0.503,
+   "median_abs_diff_log": 0.0513,
+   "sign_agreement": 1.0
+  },
+  "migration": {
+   "spearman": 0.987,
+   "pearson": 0.989,
+   "median_abs_diff_log": 0.0236,
+   "sign_agreement": 0.992
+  },
+  "dominant_driver_unchanged_share": 0.97
+ },
+ "world": {
+  "momentum": 0.1661,
+  "mortality": 0.1068,
+  "fertility": -0.0559,
+  "migration": 0.0075,
+  "total": 0.2246,
+  "P0": 8126964.296,
+  "MOM": 9595721.719,
+  "IRZM": 10677446.579,
+  "ZM": 10097336.236,
+  "MED": 10173713.833
+ },
+ "world_factors": {
+  "momentum": 1.181,
+  "mortality": 1.113,
+  "fertility": 0.946,
+  "migration": 1.008,
+  "total": 1.252
+ },
+ "region_factors": {
+  "Africa": {
+   "momentum": 1.53,
+   "mortality": 1.097,
+   "fertility": 1.558,
+   "migration": 0.976,
+   "total": 2.551
+  },
+  "Americas": {
+   "momentum": 1.119,
+   "mortality": 1.108,
+   "fertility": 0.716,
+   "migration": 1.171,
+   "total": 1.04
+  },
+  "Asia": {
+   "momentum": 1.136,
+   "mortality": 1.121,
+   "fertility": 0.779,
+   "migration": 0.968,
+   "total": 0.96
+  },
+  "Europe": {
+   "momentum": 0.857,
+   "mortality": 1.108,
+   "fertility": 0.636,
+   "migration": 1.314,
+   "total": 0.793
+  },
+  "Oceania": {
+   "momentum": 1.159,
+   "mortality": 1.084,
+   "fertility": 0.888,
+   "migration": 1.429,
+   "total": 1.594
+  }
+ },
+ "region_growth_pct": {
+  "Africa": 155.1,
+  "Americas": 4.0,
+  "Asia": -4.0,
+  "Europe": -20.7,
+  "Oceania": 59.4
+ },
+ "world_change_bn": 2.047,
+ "world_P0_bn": 8.127,
+ "world_2101_bn": 10.174,
+ "world_momentum_only_bn": 9.596,
+ "n_countries": 237,
+ "dominant_counts": {
+  "fertility": 133,
+  "momentum": 65,
+  "migration": 38,
+  "mortality": 1
+ },
+ "dominant_popshare_pct": {
+  "fertility": 72.2,
+  "migration": 7.8,
+  "momentum": 20.1,
+  "mortality": 0.0
+ },
+ "dominant_signed_counts": {
+  "fertility (-)": 104,
+  "momentum (+)": 63,
+  "fertility (+)": 29,
+  "migration (+)": 24,
+  "migration (-)": 14,
+  "momentum (-)": 2,
+  "mortality (+)": 1
+ },
+ "shrinking_n": 113,
+ "shrinking_popshare_pct": 41.7,
+ "momentum_positive_n": 155,
+ "momentum_positive_popshare_pct": 64.6,
+ "below_repl_2024_n": 131,
+ "below_repl_but_momentum_pos_n": 51,
+ "below_repl_but_momentum_pos_pop_bn": 2.63,
+ "below_repl_but_grows_2024_2100_n": 26,
+ "below_repl_but_grows_examples": [
+  {
+   "Location": "India",
+   "TFR2024": 1.96,
+   "growth_pct": 3.94
+  },
+  {
+   "Location": "United States of America",
+   "TFR2024": 1.62,
+   "growth_pct": 22.37
+  },
+  {
+   "Location": "United Kingdom",
+   "TFR2024": 1.55,
+   "growth_pct": 7.71
+  },
+  {
+   "Location": "France",
+   "TFR2024": 1.64,
+   "growth_pct": 2.97
+  },
+  {
+   "Location": "Canada",
+   "TFR2024": 1.34,
+   "growth_pct": 35.82
+  },
+  {
+   "Location": "Malaysia",
+   "TFR2024": 1.54,
+   "growth_pct": 24.39
+  },
+  {
+   "Location": "Peru",
+   "TFR2024": 1.96,
+   "growth_pct": 11.88
+  },
+  {
+   "Location": "Nepal",
+   "TFR2024": 1.96,
+   "growth_pct": 6.95
+  }
+ ],
+ "above_repl_but_shrinks": [
+  {
+   "Location": "American Samoa",
+   "TFR2024": 2.27,
+   "growth_pct": -31.66,
+   "migration": -0.59
+  },
+  {
+   "Location": "Fiji",
+   "TFR2024": 2.27,
+   "growth_pct": -5.33,
+   "migration": -0.23
+  },
+  {
+   "Location": "Morocco",
+   "TFR2024": 2.21,
+   "growth_pct": -0.35,
+   "migration": -0.2
+  },
+  {
+   "Location": "Northern Mariana Islands",
+   "TFR2024": 2.32,
+   "growth_pct": -6.97,
+   "migration": -0.13
+  },
+  {
+   "Location": "Marshall Islands",
+   "TFR2024": 2.86,
+   "growth_pct": -37.78,
+   "migration": -0.92
+  },
+  {
+   "Location": "Réunion",
+   "TFR2024": 2.15,
+   "growth_pct": -2.97,
+   "migration": -0.15
+  },
+  {
+   "Location": "Saint Martin (French part)",
+   "TFR2024": 2.67,
+   "growth_pct": -25.3,
+   "migration": -0.46
+  },
+  {
+   "Location": "Seychelles",
+   "TFR2024": 2.11,
+   "growth_pct": -10.41,
+   "migration": -0.01
+  }
+ ],
+ "migration_only_positive_n": 49,
+ "migration_turns_decline_to_growth_n": 21,
+ "migration_offsets_natural_decline": [
+  {
+   "Location": "United States of America",
+   "growth_pct": 22.4
+  },
+  {
+   "Location": "United Kingdom",
+   "growth_pct": 7.7
+  },
+  {
+   "Location": "France",
+   "growth_pct": 3.0
+  },
+  {
+   "Location": "Canada",
+   "growth_pct": 35.8
+  },
+  {
+   "Location": "Malaysia",
+   "growth_pct": 24.4
+  },
+  {
+   "Location": "Australia",
+   "growth_pct": 62.7
+  },
+  {
+   "Location": "United Arab Emirates",
+   "growth_pct": 142.2
+  },
+  {
+   "Location": "Sweden",
+   "growth_pct": 7.4
+  },
+  {
+   "Location": "Switzerland",
+   "growth_pct": 2.6
+  },
+  {
+   "Location": "Ireland",
+   "growth_pct": 0.9
+  }
+ ],
+ "spearman_total_vs": {
+  "TFR2024": 0.81,
+  "MedianAge2024": -0.797,
+  "momentum": 0.802,
+  "fertility": 0.814,
+  "migration": 0.12,
+  "mortality": -0.216
+ },
+ "variance_share_of_total": {
+  "momentum": 0.323,
+  "mortality": -0.006,
+  "fertility": 0.589,
+  "migration": 0.094
+ },
+ "variance_share_of_total_popweighted": {
+  "momentum": 0.341,
+  "mortality": -0.018,
+  "fertility": 0.668,
+  "migration": 0.009
+ },
+ "pi95_ratio_quantiles": {
+  "count": 234.0,
+  "mean": 16.09,
+  "std": 32.58,
+  "min": 1.87,
+  "10%": 2.59,
+  "50%": 5.94,
+  "90%": 32.7,
+  "max": 271.93
+ },
+ "pi95_by_region_median_ratio": {
+  "Africa": 5.61,
+  "Americas": 7.97,
+  "Asia": 4.95,
+  "Europe": 4.36,
+  "Oceania": 18.98
+ },
+ "pi95_widest": [
+  {
+   "Location": "Singapore",
+   "pi95_ratio": 271.93
+  },
+  {
+   "Location": "Saint Kitts and Nevis",
+   "pi95_ratio": 94.34
+  },
+  {
+   "Location": "Qatar",
+   "pi95_ratio": 52.26
+  },
+  {
+   "Location": "Saint Lucia",
+   "pi95_ratio": 50.32
+  },
+  {
+   "Location": "Grenada",
+   "pi95_ratio": 33.51
+  },
+  {
+   "Location": "Luxembourg",
+   "pi95_ratio": 32.85
+  },
+  {
+   "Location": "United Arab Emirates",
+   "pi95_ratio": 32.46
+  },
+  {
+   "Location": "Israel",
+   "pi95_ratio": 29.35
+  }
+ ],
+ "pi95_narrowest": [
+  {
+   "Location": "Slovenia",
+   "pi95_ratio": 1.87
+  },
+  {
+   "Location": "Hungary",
+   "pi95_ratio": 1.94
+  },
+  {
+   "Location": "Slovakia",
+   "pi95_ratio": 1.97
+  },
+  {
+   "Location": "Russian Federation",
+   "pi95_ratio": 2.01
+  },
+  {
+   "Location": "Argentina",
+   "pi95_ratio": 2.13
+  }
+ ],
+ "spearman_pi95_vs": {
+  "momentum": -0.14,
+  "fertility": 0.002,
+  "migration": 0.203,
+  "mortality": -0.106,
+  "TFR2024": 0.036,
+  "MedianAge2024": -0.018,
+  "hilo_logwidth": 0.017
+ },
+ "spearman_pi95_vs_logpop": -0.665,
+ "spearman_pi95_vs_logpop_p": 2.9301433539500835e-31,
+ "world_2101_bn_by_run": {
+  "Accelerated ABR decline": 9.402,
+  "Accelerated ABR decline with rec": 9.702,
+  "Constant fertility": 18.349,
+  "Constant mortality": 8.62,
+  "High": 14.437,
+  "Instant replacement": 10.847,
+  "Instant replacement zero migration": 10.677,
+  "Low": 6.953,
+  "Lower 80 PI": 9.39,
+  "Lower 95 PI": 9.025,
+  "Median PI": 10.174,
+  "Momentum": 9.596,
+  "No change": 15.7,
+  "No fertility below age 18": 9.752,
+  "Upper 80 PI": 11.04,
+  "Upper 95 PI": 11.44,
+  "Zero migration": 10.097,
+  "Medium": 10.174
+ },
+ "world_medium_peak": {
+  "year": 2084,
+  "bn": 10.29
+ },
+ "ols_pi95": {
+  "params": {
+   "Intercept": 3.7332,
+   "TFR2024": 0.074,
+   "I(migration.abs())": 0.1419,
+   "np.log(pop_P0)": -0.2364
+  },
+  "p": {
+   "Intercept": 0.0,
+   "TFR2024": 0.09342,
+   "I(migration.abs())": 0.83153,
+   "np.log(pop_P0)": 0.0
+  },
+  "r2": 0.422,
+  "n": 234
+ },
+ "ols_pi95_region_fe": {
+  "params": {
+   "Intercept": 3.8654,
+   "C(Region)[T.Americas]": 0.0643,
+   "C(Region)[T.Asia]": 0.2764,
+   "C(Region)[T.Europe]": -0.374,
+   "C(Region)[T.Oceania]": -0.0884,
+   "TFR2024": 0.051,
+   "I(migration.abs())": 0.2326,
+   "np.log(pop_P0)": -0.2469
+  },
+  "r2": 0.463
+ },
+ "focus": {
+  "India": {
+   "growth_pct": 3.9,
+   "momentum": 1.243,
+   "mortality": 1.132,
+   "fertility": 0.769,
+   "migration": 0.96,
+   "TFR2024": 1.96,
+   "pi95_ratio": 2.51
+  },
+  "China": {
+   "growth_pct": -55.8,
+   "momentum": 0.867,
+   "mortality": 1.134,
+   "fertility": 0.468,
+   "migration": 0.96,
+   "TFR2024": 1.01,
+   "pi95_ratio": 2.23
+  },
+  "United States of America": {
+   "growth_pct": 22.4,
+   "momentum": 0.992,
+   "mortality": 1.101,
+   "fertility": 0.71,
+   "migration": 1.58,
+   "TFR2024": 1.62,
+   "pi95_ratio": 2.46
+  },
+  "Indonesia": {
+   "growth_pct": 4.5,
+   "momentum": 1.182,
+   "mortality": 1.112,
+   "fertility": 0.82,
+   "migration": 0.969,
+   "TFR2024": 2.11,
+   "pi95_ratio": 2.52
+  },
+  "Pakistan": {
+   "growth_pct": 105.1,
+   "momentum": 1.553,
+   "mortality": 1.075,
+   "fertility": 1.396,
+   "migration": 0.88,
+   "TFR2024": 3.55,
+   "pi95_ratio": 3.86
+  },
+  "Nigeria": {
+   "growth_pct": 107.1,
+   "momentum": 1.462,
+   "mortality": 1.07,
+   "fertility": 1.227,
+   "migration": 1.078,
+   "TFR2024": 4.38,
+   "pi95_ratio": 4.51
+  },
+  "Brazil": {
+   "growth_pct": -23.1,
+   "momentum": 1.083,
+   "mortality": 1.112,
+   "fertility": 0.658,
+   "migration": 0.972,
+   "TFR2024": 1.61,
+   "pi95_ratio": 2.37
+  },
+  "Bangladesh": {
+   "growth_pct": 20.6,
+   "momentum": 1.475,
+   "mortality": 1.132,
+   "fertility": 0.826,
+   "migration": 0.875,
+   "TFR2024": 2.14,
+   "pi95_ratio": 2.85
+  },
+  "Russian Federation": {
+   "growth_pct": -13.0,
+   "momentum": 0.833,
+   "mortality": 1.136,
+   "fertility": 0.639,
+   "migration": 1.439,
+   "TFR2024": 1.46,
+   "pi95_ratio": 2.01
+  },
+  "Ethiopia": {
+   "growth_pct": 182.4,
+   "momentum": 1.629,
+   "mortality": 1.132,
+   "fertility": 1.415,
+   "migration": 1.082,
+   "TFR2024": 3.91,
+   "pi95_ratio": 3.14
+  },
+  "Mexico": {
+   "growth_pct": -0.3,
+   "momentum": 1.271,
+   "mortality": 1.123,
+   "fertility": 0.747,
+   "migration": 0.934,
+   "TFR2024": 1.89,
+   "pi95_ratio": 3.07
+  },
+  "Japan": {
+   "growth_pct": -38.2,
+   "momentum": 0.742,
+   "mortality": 1.098,
+   "fertility": 0.584,
+   "migration": 1.298,
+   "TFR2024": 1.22,
+   "pi95_ratio": 2.38
+  },
+  "Egypt": {
+   "growth_pct": 74.7,
+   "momentum": 1.416,
+   "mortality": 1.131,
+   "fertility": 1.115,
+   "migration": 0.979,
+   "TFR2024": 2.74,
+   "pi95_ratio": 2.85
+  },
+  "Philippines": {
+   "growth_pct": -1.3,
+   "momentum": 1.362,
+   "mortality": 1.104,
+   "fertility": 0.723,
+   "migration": 0.907,
+   "TFR2024": 1.89,
+   "pi95_ratio": 3.58
+  },
+  "Democratic Republic of the Congo": {
+   "growth_pct": 301.9,
+   "momentum": 1.617,
+   "mortality": 1.067,
+   "fertility": 2.388,
+   "migration": 0.976,
+   "TFR2024": 5.98,
+   "pi95_ratio": 5.81
+  },
+  "Viet Nam": {
+   "growth_pct": -9.2,
+   "momentum": 1.144,
+   "mortality": 1.118,
+   "fertility": 0.746,
+   "migration": 0.953,
+   "TFR2024": 1.9,
+   "pi95_ratio": 2.54
+  },
+  "Iran (Islamic Republic of)": {
+   "growth_pct": -12.4,
+   "momentum": 1.152,
+   "mortality": 1.123,
+   "fertility": 0.707,
+   "migration": 0.957,
+   "TFR2024": 1.68,
+   "pi95_ratio": 2.91
+  },
+  "Türkiye": {
+   "growth_pct": -25.6,
+   "momentum": 1.162,
+   "mortality": 1.117,
+   "fertility": 0.698,
+   "migration": 0.821,
+   "TFR2024": 1.62,
+   "pi95_ratio": 4.95
+  },
+  "Germany": {
+   "growth_pct": -16.3,
+   "momentum": 0.812,
+   "mortality": 1.097,
+   "fertility": 0.662,
+   "migration": 1.419,
+   "TFR2024": 1.45,
+   "pi95_ratio": 2.57
+  },
+  "Thailand": {
+   "growth_pct": -36.7,
+   "momentum": 0.891,
+   "mortality": 1.124,
+   "fertility": 0.503,
+   "migration": 1.255,
+   "TFR2024": 1.2,
+   "pi95_ratio": 3.03
+  },
+  "United Kingdom": {
+   "growth_pct": 7.7,
+   "momentum": 0.974,
+   "mortality": 1.097,
+   "fertility": 0.673,
+   "migration": 1.498,
+   "TFR2024": 1.55,
+   "pi95_ratio": 4.36
+  },
+  "Italy": {
+   "growth_pct": -40.7,
+   "momentum": 0.772,
+   "mortality": 1.093,
+   "fertility": 0.563,
+   "migration": 1.249,
+   "TFR2024": 1.21,
+   "pi95_ratio": 2.34
+  },
+  "Republic of Korea": {
+   "growth_pct": -58.1,
+   "momentum": 0.806,
+   "mortality": 1.087,
+   "fertility": 0.401,
+   "migration": 1.192,
+   "TFR2024": 0.73,
+   "pi95_ratio": 5.65
+  },
+  "Spain": {
+   "growth_pct": -31.0,
+   "momentum": 0.825,
+   "mortality": 1.094,
+   "fertility": 0.57,
+   "migration": 1.341,
+   "TFR2024": 1.22,
+   "pi95_ratio": 11.39
+  },
+  "Canada": {
+   "growth_pct": 35.8,
+   "momentum": 0.956,
+   "mortality": 1.089,
+   "fertility": 0.582,
+   "migration": 2.243,
+   "TFR2024": 1.34,
+   "pi95_ratio": 4.13
+  },
+  "Poland": {
+   "growth_pct": -50.3,
+   "momentum": 0.827,
+   "mortality": 1.113,
+   "fertility": 0.574,
+   "migration": 0.94,
+   "TFR2024": 1.3,
+   "pi95_ratio": 2.5
+  },
+  "Ukraine": {
+   "growth_pct": -59.7,
+   "momentum": 0.739,
+   "mortality": 1.136,
+   "fertility": 0.429,
+   "migration": 1.119,
+   "TFR2024": 0.99,
+   "pi95_ratio": 2.53
+  },
+  "Niger": {
+   "growth_pct": 242.2,
+   "momentum": 1.71,
+   "mortality": 1.06,
+   "fertility": 1.972,
+   "migration": 0.957,
+   "TFR2024": 5.94,
+   "pi95_ratio": 4.42
+  },
+  "Australia": {
+   "growth_pct": 62.7,
+   "momentum": 1.055,
+   "mortality": 1.087,
+   "fertility": 0.724,
+   "migration": 1.962,
+   "TFR2024": 1.64,
+   "pi95_ratio": 4.12
+  },
+  "Somalia": {
+   "growth_pct": 261.3,
+   "momentum": 1.637,
+   "mortality": 1.05,
+   "fertility": 2.288,
+   "migration": 0.918,
+   "TFR2024": 6.01,
+   "pi95_ratio": 8.24
+  }
+ }
+}

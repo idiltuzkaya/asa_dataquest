@@ -1,0 +1,23 @@
+Region,SubRegion,countries,pop_millions,LEx,TFR,MedianAge
+Africa,Eastern Africa,20,481.38,66.89,3.87,18.31
+Africa,Middle Africa,9,202.7,63.71,4.32,17.75
+Africa,Northern Africa,7,266.89,71.63,2.35,28.19
+Africa,Southern Africa,5,71.71,66.14,2.73,22.0
+Africa,Western Africa,17,440.95,62.16,4.19,18.17
+Americas,Caribbean,28,44.15,76.36,1.49,38.12
+Americas,Central America,8,180.71,74.26,2.06,26.45
+Americas,Northern America,5,381.66,79.3,1.4,40.34
+Americas,South America,14,431.72,77.19,1.9,29.24
+Asia,Central Asia,5,80.09,71.79,3.01,26.23
+Asia,Eastern Asia,8,1662.01,81.82,0.93,41.3
+Asia,South-eastern Asia,11,687.56,71.15,1.92,29.83
+Asia,Southern Asia,9,2032.7,72.98,1.98,28.06
+Asia,Western Asia,18,301.15,77.82,2.03,30.25
+Europe,Eastern Europe,10,286.75,75.79,1.47,41.65
+Europe,Northern Europe,14,107.93,81.61,1.42,41.57
+Europe,Southern Europe,17,151.93,81.86,1.46,43.89
+Europe,Western Europe,9,199.22,82.23,1.43,42.33
+Oceania,Australia and New Zealand,2,31.47,83.01,1.65,37.52
+Oceania,Melanesia,5,12.61,70.53,3.1,22.34
+Oceania,Micronesia,7,0.52,67.2,2.78,22.85
+Oceania,Polynesia,9,0.69,72.89,2.51,28.43

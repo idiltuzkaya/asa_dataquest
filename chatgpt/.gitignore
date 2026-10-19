@@ -1,0 +1,9 @@
+.build/
+.venv/
+node_modules/
+__pycache__/
+*.py[cod]
+.DS_Store
+/ASA2026_ChatGPT_Paketi.zip
+/sources/dropbox_original.zip
+.chart-data-*/

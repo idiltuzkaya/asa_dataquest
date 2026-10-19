@@ -1,0 +1,6 @@
+Region,countries,pop_millions,LEx_mean,TFR_mean,MedianAge_mean,IMR_median,CNMR_median
+Africa,58,1463.63,66.22,3.77,21.24,33.08,-0.27
+Asia,51,4763.52,75.48,2.12,30.34,10.55,-0.13
+Europe,50,745.83,80.3,1.45,42.42,3.45,2.7
+Americas,55,1038.24,76.18,1.75,34.7,9.84,-0.28
+Oceania,23,45.3,72.95,2.59,28.46,13.12,-3.66

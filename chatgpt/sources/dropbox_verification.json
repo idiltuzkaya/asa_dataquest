@@ -1,0 +1,38 @@
+[
+  {
+    "file": "2026DataQuest_WPP2024_Getting_Started.docx",
+    "local_sha256": "b70eb0df186c23464135e1296270ccbc8ebbd31763593e6d7826ad212d9d8990",
+    "download_sha256": "b70eb0df186c23464135e1296270ccbc8ebbd31763593e6d7826ad212d9d8990",
+    "identical": true
+  },
+  {
+    "file": "WPP2024_Demographic_Indicators_OtherVariants_csv.gz",
+    "local_sha256": "a860504df54877e4c19788bf6e16920d6017d021b4c149eaf8b5662674180a54",
+    "download_sha256": "a860504df54877e4c19788bf6e16920d6017d021b4c149eaf8b5662674180a54",
+    "identical": true
+  },
+  {
+    "file": "WPP2024_Demographic_Indicators_Medium_csv.gz",
+    "local_sha256": "286ac36bb1415e2e1ade03acfef0a29f0e4c087e2f78e38c48f50c5df89082bc",
+    "download_sha256": "286ac36bb1415e2e1ade03acfef0a29f0e4c087e2f78e38c48f50c5df89082bc",
+    "identical": true
+  },
+  {
+    "file": "WPP2024_Demographic_Indicators_notes.csv",
+    "local_sha256": "c6063ba18b23e899c02bb7f9c78b6e410f25b30cb9d40b66eda032e1127bea49",
+    "download_sha256": "c6063ba18b23e899c02bb7f9c78b6e410f25b30cb9d40b66eda032e1127bea49",
+    "identical": true
+  },
+  {
+    "file": "WPP2024_Supplement_Births_and_LE60.csv",
+    "local_sha256": "26d89cf8092b89c6a97a38da0009fcc7454c958b73fe80ed822fd4339ce72510",
+    "download_sha256": "26d89cf8092b89c6a97a38da0009fcc7454c958b73fe80ed822fd4339ce72510",
+    "identical": true
+  },
+  {
+    "file": "WPP2024_Supplement_Description.docx",
+    "local_sha256": "c3e0fa5969541a54c55bf7fbf8dd41874ad80afd2b81eea30d452865de262a0f",
+    "download_sha256": "c3e0fa5969541a54c55bf7fbf8dd41874ad80afd2b81eea30d452865de262a0f",
+    "identical": true
+  }
+]

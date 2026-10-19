@@ -1,0 +1,171 @@
+{
+  "independent_source_and_old_code_compared_after_freeze": true,
+  "shared_numeric_columns": 59,
+  "numeric_value_comparisons": 2111433,
+  "max_clean_numeric_difference": 0.0,
+  "missing_value_mismatches": 0,
+  "region_row_mismatches_after_explicit_americas_collapse": 0,
+  "prior_log_decomposition_max_errors": {
+    "momentum": 9.71445146547012e-17,
+    "mortality": 9.71445146547012e-17,
+    "fertility": 1.1102230246251565e-16,
+    "migration": 2.220446049250313e-16,
+    "total": 2.220446049250313e-16
+  },
+  "variant_baseline_max_difference": 0.0,
+  "prior_alternative_chain_max_abs_log_residual": 0.1674152854052764,
+  "prior_alternative_chain_worst_location": "Lesotho",
+  "prior_reported_dominant_agreement": 0.97,
+  "valid_swap_dominant_agreement": 0.9789029535864979,
+  "valid_swap_changed_locations": [
+    "Armenia",
+    "Gabon",
+    "Republic of Moldova",
+    "Sao Tome and Principe",
+    "Zimbabwe"
+  ],
+  "migration_only_claim_rows": 49,
+  "of_these_positive_mortality_rows": 49,
+  "LEx_SD_increases_count": 27,
+  "LEx_SD_first_increase_year": 1954,
+  "median_dLEx_full_historical": 0.3492999999999995,
+  "median_dLEx_2014_2023": 0.29435000000000855,
+  "median_dLEx_2024_2033": 0.16089999999999804,
+  "rerun_legacy_tables": [
+    {
+      "file": "data/clean/country_regions.csv",
+      "rerun_exists": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "data/clean/wpp2024_countries_clean.csv",
+      "rerun_exists": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "data/clean/wpp2024_aggregates.csv",
+      "rerun_exists": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "data/clean/pop_2101_lookup.csv",
+      "rerun_exists": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "eda/tables/t08_clusters_2023.csv",
+      "rerun_exists": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "eda/tables/t06_vif.csv",
+      "rerun_exists": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "eda/tables/t05_corr_within.csv",
+      "rerun_exists": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "eda/tables/t09_flagged_shocks.csv",
+      "rerun_exists": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "eda/tables/cleaning_log.csv",
+      "rerun_exists": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "eda/tables/t05_corr_pooled_spearman.csv",
+      "rerun_exists": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "eda/tables/t13_subregional_summary_2023.csv",
+      "rerun_exists": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "eda/tables/key_numbers.json",
+      "rerun_exists": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "eda/tables/t07_pca_loadings_2023.csv",
+      "rerun_exists": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "eda/tables/cleaning_log.json",
+      "rerun_exists": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "eda/tables/t05_corr_between.csv",
+      "rerun_exists": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "eda/tables/t04_subregion_weighted_means.csv",
+      "rerun_exists": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "eda/tables/t03_kruskal_by_region_2023.csv",
+      "rerun_exists": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "eda/tables/t12_regional_summary_2023.csv",
+      "rerun_exists": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "eda/tables/t11_serial_structure.csv",
+      "rerun_exists": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "eda/tables/t02_descriptive_stats.csv",
+      "rerun_exists": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "eda/tables/t01_location_types.csv",
+      "rerun_exists": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "eda/tables/t10_year_below_replacement.csv",
+      "rerun_exists": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "analysis/tables/decomp_numbers.json",
+      "rerun_exists": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "analysis/tables/decomp_aggregates.csv",
+      "rerun_exists": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "analysis/tables/decomp_countries.csv",
+      "rerun_exists": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "analysis/tables/world_scenarios_bn.csv",
+      "rerun_exists": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "analysis/tables/world_medium_1950_2101_bn.csv",
+      "rerun_exists": true,
+      "identical_bytes": true
+    }
+  ]
+}

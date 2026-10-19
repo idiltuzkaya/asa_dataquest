@@ -1,0 +1,7 @@
+{
+  "python": "3.13.16 (main, Sep 30 2026, 18:57:20) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "platform": "macOS-26.7.1-arm64-arm-64bit-Mach-O",
+  "pandas": "3.0.6",
+  "numpy": "2.5.4",
+  "matplotlib": "3.11.2"
+}

@@ -1,0 +1,45 @@
+Supplementary File: Births by Sex and Life Expectancy at Age 60
+File: WPP2024_Supplement_Births_and_LE60.csv
+What it is
+A companion file to the WPP 2024 Demographic Indicators (Medium) file. It adds five indicators that the codebook (the notes file) describes but that are not columns in the Medium or OtherVariants data files. The UN's Excel version of the indicators file does not contain them either. 
+What is in it
+Column
+Description
+Unit
+LocID
+UN location code, same as in the Medium file
+—
+ISO3_code
+Three-letter country code, same as in the Medium file
+—
+Location
+Location name, same as in the Medium file
+—
+Time
+Calendar year
+—
+BirthsMale
+Male live births
+thousands
+BirthsFemale
+Female live births
+thousands
+LE60
+Life expectancy at age 60, both sexes
+years
+LE60Male
+Male life expectancy at age 60
+years
+LE60Female
+Female life expectancy at age 60
+years
+
+Coverage: 236 countries or areas, 1950–2100, one row per location per year (35,636 rows), with no blank values. Years through 2023 are estimates and 2024 onward are projections, as in the Medium file. Births are in thousands to match the Births column; life expectancy is rounded to three decimals.
+Where it comes from
+Extracted from the UN Population Division Data Portal (World Population Prospects 2024 revision): the indicators “Total births by sex” and “Life expectancy E(x) – complete” at age 60, medium projection (the portal labels it “Median”). Values were converted to the units above; nothing else was changed.
+Things to know
+Holy See has no rows. It appears in the Medium file but was not in the portal downloads.
+Rounding. The portal gives births as whole numbers. For locations with few births per year, the male-to-female ratio from these columns can differ noticeably from the SRB column in the Medium file, so use SRB when you need the ratio.
+Consistency checks. Male plus female births match Births in the Medium file to within 0.001, and LE60 for both sexes always lies between the male and female values.
+Citation
+United Nations, Department of Economic and Social Affairs, Population Division (2024). World Population Prospects 2024, Online Edition. UN data are made available under a Creative Commons CC BY 3.0 IGO license.

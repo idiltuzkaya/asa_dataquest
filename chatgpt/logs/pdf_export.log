@@ -1,0 +1,5 @@
+Fontconfig warning: no <cachedir> elements found. Check configuration.
+Fontconfig warning: adding <cachedir>/@.__________________________________________________OOO/var/cache/fontconfig</cachedir>
+Fontconfig warning: adding <cachedir prefix="xdg">fontconfig</cachedir>
+convert /Users/buraksahinkucuk/Desktop/asa/chatgpt/slides/ASA2026_Demographic_Momentum.pptx as a Impress document -> /Users/buraksahinkucuk/Desktop/asa/chatgpt/slides/ASA2026_Demographic_Momentum.pdf using filter : impress_pdf_Export
+Overwriting: /Users/buraksahinkucuk/Desktop/asa/chatgpt/slides/ASA2026_Demographic_Momentum.pdf

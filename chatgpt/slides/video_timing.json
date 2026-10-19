@@ -1,0 +1,43 @@
+{
+  "duration_seconds": 286.072266,
+  "synthetic_voice": true,
+  "submitted": false,
+  "timeline": [
+    {
+      "slide": 1,
+      "start_seconds": 0,
+      "duration_seconds": 23.025760000000002,
+      "voice": "macOS Samantha synthetic"
+    },
+    {
+      "slide": 2,
+      "start_seconds": 23.025760000000002,
+      "duration_seconds": 54.212653,
+      "voice": "macOS Samantha synthetic"
+    },
+    {
+      "slide": 3,
+      "start_seconds": 77.23841300000001,
+      "duration_seconds": 59.076689,
+      "voice": "macOS Samantha synthetic"
+    },
+    {
+      "slide": 4,
+      "start_seconds": 136.31510200000002,
+      "duration_seconds": 69.827528,
+      "voice": "macOS Samantha synthetic"
+    },
+    {
+      "slide": 5,
+      "start_seconds": 206.14263000000003,
+      "duration_seconds": 60.467937,
+      "voice": "macOS Samantha synthetic"
+    },
+    {
+      "slide": 6,
+      "start_seconds": 266.610567,
+      "duration_seconds": 19.322177,
+      "voice": "macOS Samantha synthetic"
+    }
+  ]
+}

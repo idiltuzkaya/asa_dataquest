@@ -1,0 +1,589 @@
+[
+  {
+    "check": "numeric_parse_TPopulation1Jan",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_TPopulation1July",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_TPopulationMale1July",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_TPopulationFemale1July",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_PopDensity",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_PopSexRatio",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_MedianAgePop",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_NatChange",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_NatChangeRT",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_PopChange",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_PopGrowthRate",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_DoublingTime",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_Births",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_Births1519",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_CBR",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_TFR",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_NRR",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_MAC",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_SRB",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_Deaths",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_DeathsMale",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_DeathsFemale",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_CDR",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_LEx",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_LExMale",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_LExFemale",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_LE15",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_LE15Male",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_LE15Female",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_LE65",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_LE65Male",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_LE65Female",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_LE80",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_LE80Male",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_LE80Female",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_InfantDeaths",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_IMR",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_LBsurvivingAge1",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_Under5Deaths",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_Q5",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_Q0040",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_Q0040Male",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_Q0040Female",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_Q0060",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_Q0060Male",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_Q0060Female",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_Q1550",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_Q1550Male",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_Q1550Female",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_Q1560",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_Q1560Male",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_Q1560Female",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_NetMigrations",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_CNMR",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "medium_dimensions",
+    "passed": true,
+    "detail": [
+      84360,
+      67
+    ]
+  },
+  {
+    "check": "medium_unique",
+    "passed": true,
+    "detail": "LocID, Time, Variant"
+  },
+  {
+    "check": "medium_variant",
+    "passed": true,
+    "detail": [
+      "Medium"
+    ]
+  },
+  {
+    "check": "country_filters_agree",
+    "passed": true,
+    "detail": {
+      "iso_rows": 36024,
+      "type_rows": 36024
+    }
+  },
+  {
+    "check": "country_count",
+    "passed": true,
+    "detail": 237
+  },
+  {
+    "check": "panel_complete",
+    "passed": true,
+    "detail": "237 x 152, including 2101 boundary"
+  },
+  {
+    "check": "terminal_year_only_january",
+    "passed": true,
+    "detail": "Other 53 indicators absent in 2101"
+  },
+  {
+    "check": "country_year_unique",
+    "passed": true,
+    "detail": 35787
+  },
+  {
+    "check": "world_population_reconciles",
+    "passed": true,
+    "detail": 0.014000000432133675
+  },
+  {
+    "check": "region_reconciles_Africa",
+    "passed": true,
+    "detail": 0.00699999975040555
+  },
+  {
+    "check": "region_reconciles_Asia",
+    "passed": true,
+    "detail": 0.007999999914318323
+  },
+  {
+    "check": "region_reconciles_Europe",
+    "passed": true,
+    "detail": 0.011000000056810677
+  },
+  {
+    "check": "region_reconciles_Latin America and the Caribbean",
+    "passed": true,
+    "detail": 0.007999999914318323
+  },
+  {
+    "check": "region_reconciles_Northern America",
+    "passed": true,
+    "detail": 0.0020000000367872417
+  },
+  {
+    "check": "region_reconciles_Oceania",
+    "passed": true,
+    "detail": 0.004000000008090865
+  },
+  {
+    "check": "natural_residual",
+    "passed": true,
+    "detail": {
+      "max_abs_thousands": 3.637978807091713e-12,
+      "nonmissing": 35787
+    }
+  },
+  {
+    "check": "stock_residual",
+    "passed": true,
+    "detail": {
+      "max_abs_thousands": 2.255546860396862e-10,
+      "nonmissing": 35787
+    }
+  },
+  {
+    "check": "sex_residual",
+    "passed": true,
+    "detail": {
+      "max_abs_thousands": 0.0010000001639127731,
+      "nonmissing": 35787
+    }
+  },
+  {
+    "check": "supplement_unique",
+    "passed": true,
+    "detail": 35636
+  },
+  {
+    "check": "supplement_coverage",
+    "passed": true,
+    "detail": 35636
+  },
+  {
+    "check": "supplement_missing_only_holy_see",
+    "passed": true,
+    "detail": [
+      "Holy See"
+    ]
+  },
+  {
+    "check": "supplement_births",
+    "passed": true,
+    "detail": 0.0010000000020227162
+  },
+  {
+    "check": "supplement_LE60_between_sexes",
+    "passed": true,
+    "detail": "all supplement rows"
+  },
+  {
+    "check": "numeric_parse_TPopulation1Jan",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_TPopulation1July",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_TFR",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_NRR",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_LEx",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "numeric_parse_NetMigrations",
+    "passed": true,
+    "detail": {
+      "unparseable": 0
+    }
+  },
+  {
+    "check": "variants_unique",
+    "passed": true,
+    "detail": 662919
+  },
+  {
+    "check": "variants_count",
+    "passed": true,
+    "detail": {
+      "rows": 662919,
+      "variants": 18
+    }
+  },
+  {
+    "check": "four_scenarios_complete",
+    "passed": true,
+    "detail": "555 locations x 78 years"
+  },
+  {
+    "check": "decomposition_reconstructs",
+    "passed": true,
+    "detail": 4.656612873077393e-10
+  },
+  {
+    "check": "alternative_path_reconstructs",
+    "passed": true,
+    "detail": "fertility/migration swapped"
+  },
+  {
+    "check": "prediction_intervals_nested",
+    "passed": true,
+    "detail": 18486
+  }
+]

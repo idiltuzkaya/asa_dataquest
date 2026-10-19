@@ -1,0 +1,238 @@
+LocID,ISO3_code,Location,team_name,Region,SubRegion,RegionSource,CoreCountry,UN_SubRegion
+108,BDI,Burundi,Burundi,Africa,Eastern Africa,team_list,True,Eastern Africa
+174,COM,Comoros,Comoros,Africa,Eastern Africa,team_list,True,Eastern Africa
+262,DJI,Djibouti,Djibouti,Africa,Eastern Africa,team_list,True,Eastern Africa
+232,ERI,Eritrea,Eritrea,Africa,Eastern Africa,team_list,True,Eastern Africa
+231,ETH,Ethiopia,Ethiopia,Africa,Eastern Africa,team_list,True,Eastern Africa
+404,KEN,Kenya,Kenya,Africa,Eastern Africa,team_list,True,Eastern Africa
+450,MDG,Madagascar,Madagascar,Africa,Eastern Africa,team_list,True,Eastern Africa
+454,MWI,Malawi,Malawi,Africa,Eastern Africa,team_list,True,Eastern Africa
+480,MUS,Mauritius,Mauritius,Africa,Eastern Africa,team_list,True,Eastern Africa
+175,MYT,Mayotte,,Africa,Eastern Africa,un_hierarchy,False,Eastern Africa
+508,MOZ,Mozambique,Mozambique,Africa,Eastern Africa,team_list,True,Eastern Africa
+646,RWA,Rwanda,Rwanda,Africa,Eastern Africa,team_list,True,Eastern Africa
+638,REU,Réunion,,Africa,Eastern Africa,un_hierarchy,False,Eastern Africa
+690,SYC,Seychelles,Seychelles,Africa,Eastern Africa,team_list,True,Eastern Africa
+706,SOM,Somalia,Somalia,Africa,Eastern Africa,team_list,True,Eastern Africa
+728,SSD,South Sudan,South Sudan,Africa,Eastern Africa,team_list,True,Eastern Africa
+800,UGA,Uganda,Uganda,Africa,Eastern Africa,team_list,True,Eastern Africa
+834,TZA,United Republic of Tanzania,Tanzania,Africa,Eastern Africa,team_list,True,Eastern Africa
+894,ZMB,Zambia,Zambia,Africa,Eastern Africa,team_list,True,Eastern Africa
+716,ZWE,Zimbabwe,Zimbabwe,Africa,Eastern Africa,team_list,True,Eastern Africa
+24,AGO,Angola,Angola,Africa,Middle Africa,team_list,True,Middle Africa
+120,CMR,Cameroon,Cameroon,Africa,Middle Africa,team_list,True,Middle Africa
+140,CAF,Central African Republic,Central African Republic,Africa,Middle Africa,team_list,True,Middle Africa
+148,TCD,Chad,Chad,Africa,Middle Africa,team_list,True,Middle Africa
+178,COG,Congo,Congo,Africa,Middle Africa,team_list,True,Middle Africa
+180,COD,Democratic Republic of the Congo,DR Congo,Africa,Middle Africa,team_list,True,Middle Africa
+226,GNQ,Equatorial Guinea,Equatorial Guinea,Africa,Middle Africa,team_list,True,Middle Africa
+266,GAB,Gabon,Gabon,Africa,Middle Africa,team_list,True,Middle Africa
+678,STP,Sao Tome and Principe,São Tomé and Príncipe,Africa,Middle Africa,team_list,True,Middle Africa
+12,DZA,Algeria,Algeria,Africa,Northern Africa,team_list,True,Northern Africa
+818,EGY,Egypt,Egypt,Africa,Northern Africa,team_list,True,Northern Africa
+434,LBY,Libya,Libya,Africa,Northern Africa,team_list,True,Northern Africa
+504,MAR,Morocco,Morocco,Africa,Northern Africa,team_list,True,Northern Africa
+729,SDN,Sudan,Sudan,Africa,Northern Africa,team_list,True,Northern Africa
+788,TUN,Tunisia,Tunisia,Africa,Northern Africa,team_list,True,Northern Africa
+732,ESH,Western Sahara,,Africa,Northern Africa,un_hierarchy,False,Northern Africa
+72,BWA,Botswana,Botswana,Africa,Southern Africa,team_list,True,Southern Africa
+748,SWZ,Eswatini,Eswatini,Africa,Southern Africa,team_list,True,Southern Africa
+426,LSO,Lesotho,Lesotho,Africa,Southern Africa,team_list,True,Southern Africa
+516,NAM,Namibia,Namibia,Africa,Southern Africa,team_list,True,Southern Africa
+710,ZAF,South Africa,South Africa,Africa,Southern Africa,team_list,True,Southern Africa
+204,BEN,Benin,Benin,Africa,Western Africa,team_list,True,Western Africa
+854,BFA,Burkina Faso,Burkina Faso,Africa,Western Africa,team_list,True,Western Africa
+132,CPV,Cabo Verde,Cabo Verde,Africa,Western Africa,team_list,True,Western Africa
+384,CIV,Côte d'Ivoire,Côte d’Ivoire,Africa,Western Africa,team_list,True,Western Africa
+270,GMB,Gambia,Gambia,Africa,Western Africa,team_list,True,Western Africa
+288,GHA,Ghana,Ghana,Africa,Western Africa,team_list,True,Western Africa
+324,GIN,Guinea,Guinea,Africa,Western Africa,team_list,True,Western Africa
+624,GNB,Guinea-Bissau,Guinea-Bissau,Africa,Western Africa,team_list,True,Western Africa
+430,LBR,Liberia,Liberia,Africa,Western Africa,team_list,True,Western Africa
+466,MLI,Mali,Mali,Africa,Western Africa,team_list,True,Western Africa
+478,MRT,Mauritania,Mauritania,Africa,Western Africa,team_list,True,Western Africa
+562,NER,Niger,Niger,Africa,Western Africa,team_list,True,Western Africa
+566,NGA,Nigeria,Nigeria,Africa,Western Africa,team_list,True,Western Africa
+654,SHN,Saint Helena,,Africa,Western Africa,un_hierarchy,False,Western Africa
+686,SEN,Senegal,Senegal,Africa,Western Africa,team_list,True,Western Africa
+694,SLE,Sierra Leone,Sierra Leone,Africa,Western Africa,team_list,True,Western Africa
+768,TGO,Togo,Togo,Africa,Western Africa,team_list,True,Western Africa
+660,AIA,Anguilla,,Americas,Caribbean,un_hierarchy,False,Caribbean
+28,ATG,Antigua and Barbuda,Antigua and Barbuda,Americas,Caribbean,team_list,True,Caribbean
+533,ABW,Aruba,,Americas,Caribbean,un_hierarchy,False,Caribbean
+44,BHS,Bahamas,Bahamas,Americas,Caribbean,team_list,True,Caribbean
+52,BRB,Barbados,Barbados,Americas,Caribbean,team_list,True,Caribbean
+535,BES,"Bonaire, Sint Eustatius and Saba",,Americas,Caribbean,un_hierarchy,False,Caribbean
+92,VGB,British Virgin Islands,,Americas,Caribbean,un_hierarchy,False,Caribbean
+136,CYM,Cayman Islands,,Americas,Caribbean,un_hierarchy,False,Caribbean
+192,CUB,Cuba,Cuba,Americas,Caribbean,team_list,True,Caribbean
+531,CUW,Curaçao,,Americas,Caribbean,un_hierarchy,False,Caribbean
+212,DMA,Dominica,Dominica,Americas,Caribbean,team_list,True,Caribbean
+214,DOM,Dominican Republic,Dominican Republic,Americas,Caribbean,team_list,True,Caribbean
+308,GRD,Grenada,Grenada,Americas,Caribbean,team_list,True,Caribbean
+312,GLP,Guadeloupe,,Americas,Caribbean,un_hierarchy,False,Caribbean
+332,HTI,Haiti,Haiti,Americas,Caribbean,team_list,True,Caribbean
+388,JAM,Jamaica,Jamaica,Americas,Caribbean,team_list,True,Caribbean
+474,MTQ,Martinique,,Americas,Caribbean,un_hierarchy,False,Caribbean
+500,MSR,Montserrat,,Americas,Caribbean,un_hierarchy,False,Caribbean
+630,PRI,Puerto Rico,,Americas,Caribbean,un_hierarchy,False,Caribbean
+652,BLM,Saint Barthélemy,,Americas,Caribbean,un_hierarchy,False,Caribbean
+659,KNA,Saint Kitts and Nevis,Saint Kitts and Nevis,Americas,Caribbean,team_list,True,Caribbean
+662,LCA,Saint Lucia,Saint Lucia,Americas,Caribbean,team_list,True,Caribbean
+663,MAF,Saint Martin (French part),,Americas,Caribbean,un_hierarchy,False,Caribbean
+670,VCT,Saint Vincent and the Grenadines,Saint Vincent and the Grenadines,Americas,Caribbean,team_list,True,Caribbean
+534,SXM,Sint Maarten (Dutch part),,Americas,Caribbean,un_hierarchy,False,Caribbean
+780,TTO,Trinidad and Tobago,Trinidad and Tobago,Americas,Caribbean,team_list,True,Caribbean
+796,TCA,Turks and Caicos Islands,,Americas,Caribbean,un_hierarchy,False,Caribbean
+850,VIR,United States Virgin Islands,,Americas,Caribbean,un_hierarchy,False,Caribbean
+84,BLZ,Belize,Belize,Americas,Central America,team_list,True,Central America
+188,CRI,Costa Rica,Costa Rica,Americas,Central America,team_list,True,Central America
+222,SLV,El Salvador,El Salvador,Americas,Central America,team_list,True,Central America
+320,GTM,Guatemala,Guatemala,Americas,Central America,team_list,True,Central America
+340,HND,Honduras,Honduras,Americas,Central America,team_list,True,Central America
+484,MEX,Mexico,Mexico,Americas,Central America,team_list,True,Central America
+558,NIC,Nicaragua,Nicaragua,Americas,Central America,team_list,True,Central America
+591,PAN,Panama,Panama,Americas,Central America,team_list,True,Central America
+60,BMU,Bermuda,,Americas,Northern America,un_hierarchy,False,Northern America
+124,CAN,Canada,Canada,Americas,Northern America,team_list,True,Northern America
+304,GRL,Greenland,,Americas,Northern America,un_hierarchy,False,Northern America
+666,SPM,Saint Pierre and Miquelon,,Americas,Northern America,un_hierarchy,False,Northern America
+840,USA,United States of America,United States,Americas,Northern America,team_list,True,Northern America
+32,ARG,Argentina,Argentina,Americas,South America,team_list,True,South America
+68,BOL,Bolivia (Plurinational State of),Bolivia,Americas,South America,team_list,True,South America
+76,BRA,Brazil,Brazil,Americas,South America,team_list,True,South America
+152,CHL,Chile,Chile,Americas,South America,team_list,True,South America
+170,COL,Colombia,Colombia,Americas,South America,team_list,True,South America
+218,ECU,Ecuador,Ecuador,Americas,South America,team_list,True,South America
+238,FLK,Falkland Islands (Malvinas),,Americas,South America,un_hierarchy,False,South America
+254,GUF,French Guiana,,Americas,South America,un_hierarchy,False,South America
+328,GUY,Guyana,Guyana,Americas,South America,team_list,True,South America
+600,PRY,Paraguay,Paraguay,Americas,South America,team_list,True,South America
+604,PER,Peru,Peru,Americas,South America,team_list,True,South America
+740,SUR,Suriname,Suriname,Americas,South America,team_list,True,South America
+858,URY,Uruguay,Uruguay,Americas,South America,team_list,True,South America
+862,VEN,Venezuela (Bolivarian Republic of),Venezuela,Americas,South America,team_list,True,South America
+398,KAZ,Kazakhstan,Kazakhstan,Asia,Central Asia,team_list,True,Central Asia
+417,KGZ,Kyrgyzstan,Kyrgyzstan,Asia,Central Asia,team_list,True,Central Asia
+762,TJK,Tajikistan,Tajikistan,Asia,Central Asia,team_list,True,Central Asia
+795,TKM,Turkmenistan,Turkmenistan,Asia,Central Asia,team_list,True,Central Asia
+860,UZB,Uzbekistan,Uzbekistan,Asia,Central Asia,team_list,True,Central Asia
+156,CHN,China,China,Asia,Eastern Asia,team_list,True,Eastern Asia
+344,HKG,"China, Hong Kong SAR",,Asia,Eastern Asia,un_hierarchy,False,Eastern Asia
+446,MAC,"China, Macao SAR",,Asia,Eastern Asia,un_hierarchy,False,Eastern Asia
+158,TWN,"China, Taiwan Province of China",,Asia,Eastern Asia,un_hierarchy,False,Eastern Asia
+408,PRK,Dem. People's Republic of Korea,North Korea,Asia,Eastern Asia,team_list,True,Eastern Asia
+392,JPN,Japan,Japan,Asia,Eastern Asia,team_list,True,Eastern Asia
+496,MNG,Mongolia,Mongolia,Asia,Eastern Asia,team_list,True,Eastern Asia
+410,KOR,Republic of Korea,South Korea,Asia,Eastern Asia,team_list,True,Eastern Asia
+96,BRN,Brunei Darussalam,Brunei,Asia,South-eastern Asia,team_list,True,South-eastern Asia
+116,KHM,Cambodia,Cambodia,Asia,South-eastern Asia,team_list,True,South-eastern Asia
+360,IDN,Indonesia,Indonesia,Asia,South-eastern Asia,team_list,True,South-eastern Asia
+418,LAO,Lao People's Democratic Republic,Laos,Asia,South-eastern Asia,team_list,True,South-eastern Asia
+458,MYS,Malaysia,Malaysia,Asia,South-eastern Asia,team_list,True,South-eastern Asia
+104,MMR,Myanmar,Myanmar,Asia,South-eastern Asia,team_list,True,South-eastern Asia
+608,PHL,Philippines,Philippines,Asia,South-eastern Asia,team_list,True,South-eastern Asia
+702,SGP,Singapore,Singapore,Asia,South-eastern Asia,team_list,True,South-eastern Asia
+764,THA,Thailand,Thailand,Asia,South-eastern Asia,team_list,True,South-eastern Asia
+626,TLS,Timor-Leste,Timor-Leste,Asia,South-eastern Asia,team_list,True,South-eastern Asia
+704,VNM,Viet Nam,Viet Nam,Asia,South-eastern Asia,team_list,True,South-eastern Asia
+4,AFG,Afghanistan,Afghanistan,Asia,Southern Asia,team_list,True,Southern Asia
+50,BGD,Bangladesh,Bangladesh,Asia,Southern Asia,team_list,True,Southern Asia
+64,BTN,Bhutan,Bhutan,Asia,Southern Asia,team_list,True,Southern Asia
+356,IND,India,India,Asia,Southern Asia,team_list,True,Southern Asia
+364,IRN,Iran (Islamic Republic of),Iran,Asia,Southern Asia,team_list,True,Southern Asia
+462,MDV,Maldives,Maldives,Asia,Southern Asia,team_list,True,Southern Asia
+524,NPL,Nepal,Nepal,Asia,Southern Asia,team_list,True,Southern Asia
+586,PAK,Pakistan,Pakistan,Asia,Southern Asia,team_list,True,Southern Asia
+144,LKA,Sri Lanka,Sri Lanka,Asia,Southern Asia,team_list,True,Southern Asia
+51,ARM,Armenia,Armenia,Asia,Western Asia,team_list,True,Western Asia
+31,AZE,Azerbaijan,Azerbaijan,Asia,Western Asia,team_list,True,Western Asia
+48,BHR,Bahrain,Bahrain,Asia,Western Asia,team_list,True,Western Asia
+196,CYP,Cyprus,Cyprus,Asia,Western Asia,team_list,True,Western Asia
+268,GEO,Georgia,Georgia,Asia,Western Asia,team_list,True,Western Asia
+368,IRQ,Iraq,Iraq,Asia,Western Asia,team_list,True,Western Asia
+376,ISR,Israel,Israel,Asia,Western Asia,team_list,True,Western Asia
+400,JOR,Jordan,Jordan,Asia,Western Asia,team_list,True,Western Asia
+414,KWT,Kuwait,Kuwait,Asia,Western Asia,team_list,True,Western Asia
+422,LBN,Lebanon,Lebanon,Asia,Western Asia,team_list,True,Western Asia
+512,OMN,Oman,Oman,Asia,Western Asia,team_list,True,Western Asia
+634,QAT,Qatar,Qatar,Asia,Western Asia,team_list,True,Western Asia
+682,SAU,Saudi Arabia,Saudi Arabia,Asia,Western Asia,team_list,True,Western Asia
+275,PSE,State of Palestine,State of Palestine (observer state),Asia,Western Asia,team_list,True,Western Asia
+760,SYR,Syrian Arab Republic,Syria,Asia,Western Asia,team_list,True,Western Asia
+792,TUR,Türkiye,Türkiye,Asia,Western Asia,team_list,True,Western Asia
+784,ARE,United Arab Emirates,United Arab Emirates,Asia,Western Asia,team_list,True,Western Asia
+887,YEM,Yemen,Yemen,Asia,Western Asia,team_list,True,Western Asia
+112,BLR,Belarus,Belarus,Europe,Eastern Europe,team_list,True,Eastern Europe
+100,BGR,Bulgaria,Bulgaria,Europe,Eastern Europe,team_list,True,Eastern Europe
+203,CZE,Czechia,Czechia,Europe,Eastern Europe,team_list,True,Eastern Europe
+348,HUN,Hungary,Hungary,Europe,Eastern Europe,team_list,True,Eastern Europe
+616,POL,Poland,Poland,Europe,Eastern Europe,team_list,True,Eastern Europe
+498,MDA,Republic of Moldova,Moldova,Europe,Eastern Europe,team_list,True,Eastern Europe
+642,ROU,Romania,Romania,Europe,Eastern Europe,team_list,True,Eastern Europe
+643,RUS,Russian Federation,Russia,Europe,Eastern Europe,team_list,True,Eastern Europe
+703,SVK,Slovakia,Slovakia,Europe,Eastern Europe,team_list,True,Eastern Europe
+804,UKR,Ukraine,Ukraine,Europe,Eastern Europe,team_list,True,Eastern Europe
+208,DNK,Denmark,Denmark,Europe,Northern Europe,team_list,True,Northern Europe
+233,EST,Estonia,Estonia,Europe,Northern Europe,team_list,True,Northern Europe
+234,FRO,Faroe Islands,,Europe,Northern Europe,un_hierarchy,False,Northern Europe
+246,FIN,Finland,Finland,Europe,Northern Europe,team_list,True,Northern Europe
+831,GGY,Guernsey,,Europe,Northern Europe,un_hierarchy,False,Northern Europe
+352,ISL,Iceland,Iceland,Europe,Northern Europe,team_list,True,Northern Europe
+372,IRL,Ireland,Ireland,Europe,Northern Europe,team_list,True,Northern Europe
+833,IMN,Isle of Man,,Europe,Northern Europe,un_hierarchy,False,Northern Europe
+832,JEY,Jersey,,Europe,Northern Europe,un_hierarchy,False,Northern Europe
+428,LVA,Latvia,Latvia,Europe,Northern Europe,team_list,True,Northern Europe
+440,LTU,Lithuania,Lithuania,Europe,Northern Europe,team_list,True,Northern Europe
+578,NOR,Norway,Norway,Europe,Northern Europe,team_list,True,Northern Europe
+752,SWE,Sweden,Sweden,Europe,Northern Europe,team_list,True,Northern Europe
+826,GBR,United Kingdom,United Kingdom,Europe,Northern Europe,team_list,True,Northern Europe
+8,ALB,Albania,Albania,Europe,Southern Europe,team_list,True,Southern Europe
+20,AND,Andorra,Andorra,Europe,Southern Europe,team_list,True,Southern Europe
+70,BIH,Bosnia and Herzegovina,Bosnia and Herzegovina,Europe,Southern Europe,team_list,True,Southern Europe
+191,HRV,Croatia,Croatia,Europe,Southern Europe,team_list,True,Southern Europe
+292,GIB,Gibraltar,,Europe,Southern Europe,un_hierarchy,False,Southern Europe
+300,GRC,Greece,Greece,Europe,Southern Europe,team_list,True,Southern Europe
+336,VAT,Holy See,Holy See (observer),Europe,Southern Europe,team_list,True,Southern Europe
+380,ITA,Italy,Italy,Europe,Southern Europe,team_list,True,Southern Europe
+412,XKX,Kosovo (under UNSC res. 1244),,Europe,Southern Europe,un_hierarchy,False,Southern Europe
+470,MLT,Malta,Malta,Europe,Southern Europe,team_list,True,Southern Europe
+499,MNE,Montenegro,Montenegro,Europe,Southern Europe,team_list,True,Southern Europe
+807,MKD,North Macedonia,North Macedonia,Europe,Southern Europe,team_list,True,Southern Europe
+620,PRT,Portugal,Portugal,Europe,Southern Europe,team_list,True,Southern Europe
+674,SMR,San Marino,San Marino,Europe,Southern Europe,team_list,True,Southern Europe
+688,SRB,Serbia,Serbia,Europe,Southern Europe,team_list,True,Southern Europe
+705,SVN,Slovenia,Slovenia,Europe,Southern Europe,team_list,True,Southern Europe
+724,ESP,Spain,Spain,Europe,Southern Europe,team_list,True,Southern Europe
+40,AUT,Austria,Austria,Europe,Western Europe,team_list,True,Western Europe
+56,BEL,Belgium,Belgium,Europe,Western Europe,team_list,True,Western Europe
+250,FRA,France,France,Europe,Western Europe,team_list,True,Western Europe
+276,DEU,Germany,Germany,Europe,Western Europe,team_list,True,Western Europe
+438,LIE,Liechtenstein,Liechtenstein,Europe,Western Europe,team_list,True,Western Europe
+442,LUX,Luxembourg,Luxembourg,Europe,Western Europe,team_list,True,Western Europe
+492,MCO,Monaco,Monaco,Europe,Western Europe,team_list,True,Western Europe
+528,NLD,Netherlands,Netherlands,Europe,Western Europe,team_list,True,Western Europe
+756,CHE,Switzerland,Switzerland,Europe,Western Europe,team_list,True,Western Europe
+36,AUS,Australia,Australia,Oceania,Australia and New Zealand,team_list,True,Australia and New Zealand
+554,NZL,New Zealand,New Zealand,Oceania,Australia and New Zealand,team_list,True,Australia and New Zealand
+242,FJI,Fiji,Fiji,Oceania,Melanesia,team_list,True,Melanesia
+540,NCL,New Caledonia,,Oceania,Melanesia,un_hierarchy,False,Melanesia
+598,PNG,Papua New Guinea,Papua New Guinea,Oceania,Melanesia,team_list,True,Melanesia
+90,SLB,Solomon Islands,Solomon Islands,Oceania,Melanesia,team_list,True,Melanesia
+548,VUT,Vanuatu,Vanuatu,Oceania,Melanesia,team_list,True,Melanesia
+316,GUM,Guam,,Oceania,Micronesia,un_hierarchy,False,Micronesia
+296,KIR,Kiribati,Kiribati,Oceania,Micronesia,team_list,True,Micronesia
+584,MHL,Marshall Islands,Marshall Islands,Oceania,Micronesia,team_list,True,Micronesia
+583,FSM,Micronesia (Fed. States of),Micronesia (Federated States of),Oceania,Micronesia,team_list,True,Micronesia
+520,NRU,Nauru,Nauru,Oceania,Micronesia,team_list,True,Micronesia
+580,MNP,Northern Mariana Islands,,Oceania,Micronesia,un_hierarchy,False,Micronesia
+585,PLW,Palau,Palau,Oceania,Micronesia,team_list,True,Micronesia
+16,ASM,American Samoa,,Oceania,Polynesia,un_hierarchy,False,Polynesia
+184,COK,Cook Islands,,Oceania,Polynesia,un_hierarchy,False,Polynesia
+258,PYF,French Polynesia,,Oceania,Polynesia,un_hierarchy,False,Polynesia
+570,NIU,Niue,,Oceania,Polynesia,un_hierarchy,False,Polynesia
+882,WSM,Samoa,Samoa,Oceania,Polynesia,team_list,True,Polynesia
+772,TKL,Tokelau,,Oceania,Polynesia,un_hierarchy,False,Polynesia
+776,TON,Tonga,Tonga,Oceania,Polynesia,team_list,True,Polynesia
+798,TUV,Tuvalu,Tuvalu,Oceania,Polynesia,team_list,True,Polynesia
+876,WLF,Wallis and Futuna Islands,,Oceania,Polynesia,un_hierarchy,False,Polynesia

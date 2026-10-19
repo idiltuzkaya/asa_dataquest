@@ -1,0 +1,399 @@
+Location,Time,LEx,CNMR,PopGrowthRate,flag_mortality_shock,flag_migration_shock,flag_growth_extreme
+Afghanistan,1980,39.2581,-89.165,-6.144,False,True,False
+Afghanistan,1981,39.4058,-167.378,-13.883,False,True,True
+Afghanistan,1982,36.0577,-45.581,-2.164,True,False,False
+Afghanistan,1984,31.4732,22.182,4.053,True,False,False
+Afghanistan,1992,46.5691,90.167,12.347,False,True,True
+Afghanistan,1993,51.0212,76.937,11.328,False,True,True
+Afghanistan,2000,55.0047,-50.967,-1.208,False,True,False
+American Samoa,1966,58.2839,-0.912,2.996,True,False,False
+Andorra,1951,67.5312,-83.527,-7.755,False,True,False
+Andorra,1952,67.9474,-55.174,-5.042,False,True,False
+Andorra,1954,69.2632,93.36,9.79,False,True,False
+Andorra,1955,69.7772,89.044,9.398,False,True,False
+Andorra,1956,70.2326,84.559,9.157,False,True,False
+Andorra,1957,70.6423,79.735,8.804,False,True,False
+Andorra,1958,71.1759,75.116,8.496,False,True,False
+Andorra,1959,71.6151,70.92,8.225,False,True,False
+Andorra,1960,72.0941,67.192,7.975,False,True,False
+Andorra,1961,72.5725,63.7,7.658,False,True,False
+Andorra,1962,72.9929,59.986,7.4,False,True,False
+Andorra,1963,73.2981,56.399,7.036,False,True,False
+Andorra,1964,73.6241,52.102,6.733,False,True,False
+Andorra,1966,74.0199,59.688,7.538,False,True,False
+Andorra,1967,74.1189,67.437,8.34,False,True,False
+Andorra,1968,74.2199,63.694,7.911,False,True,False
+Andorra,1969,74.2962,60.577,7.549,False,True,False
+Andorra,1970,74.452,57.317,7.227,False,True,False
+Andorra,1971,74.6146,54.381,6.938,False,True,False
+Andorra,1972,74.8635,51.27,6.728,False,True,False
+Andorra,1990,78.9608,61.658,6.87,False,True,False
+Andorra,1991,79.3458,72.722,7.996,False,True,False
+Andorra,2003,82.7183,70.864,7.402,False,True,False
+Andorra,2004,82.8153,57.154,6.108,False,True,False
+Andorra,2010,84.1974,-76.748,-7.219,False,True,False
+Andorra,2020,79.4177,7.394,0.597,True,False,False
+Bahrain,2002,75.2086,61.09,7.784,False,True,False
+Bahrain,2003,75.4857,56.172,7.354,False,True,False
+Bahrain,2004,75.7869,52.112,6.968,False,True,False
+Bangladesh,1970,42.6672,-1.067,2.416,True,False,False
+Bangladesh,1971,26.5218,3.193,1.092,True,False,False
+Armenia,1988,52.7089,-3.972,0.593,True,False,False
+Armenia,1992,67.8819,-54.949,-4.086,False,True,False
+Armenia,2020,68.8898,-4.513,-0.664,True,False,False
+Bhutan,1992,57.208,-114.058,-8.713,False,True,False
+Bolivia (Plurinational State of),2020,62.906,-0.395,1.077,True,False,False
+Bosnia and Herzegovina,1992,51.9671,-103.153,-10.747,True,True,True
+Botswana,2021,63.3025,-1.7,1.533,True,False,False
+Belize,1961,52.9437,-3.706,2.464,True,False,False
+British Virgin Islands,2011,76.363,66.701,7.178,False,True,False
+British Virgin Islands,2015,76.5582,55.192,5.976,False,True,False
+British Virgin Islands,2016,76.6242,-101.335,-9.749,False,True,False
+British Virgin Islands,2018,76.7281,84.052,8.587,False,True,False
+Myanmar,2008,56.3637,-3.731,0.398,True,False,False
+Burundi,1972,25.7768,-32.749,-2.431,True,False,False
+Burundi,1988,42.8894,-8.66,1.841,True,False,False
+Burundi,1993,37.2214,-120.536,-9.79,True,True,False
+Burundi,1994,44.5152,90.372,11.025,False,True,True
+Cambodia,1970,38.6281,-29.071,-1.057,True,False,False
+Cambodia,1975,12.7845,-7.25,-6.559,True,False,False
+Cambodia,1994,56.2205,52.898,8.398,False,True,False
+Cambodia,1995,56.562,50.211,7.822,False,True,False
+Cameroon,1960,34.6667,0.0,1.511,True,False,False
+Central African Republic,2009,14.6655,-6.381,-3.523,True,False,False
+Central African Republic,2014,40.2652,-37.647,-1.441,True,False,False
+Central African Republic,2017,45.2315,-12.221,1.458,True,False,False
+Central African Republic,2019,31.5302,-7.452,0.641,True,False,False
+Central African Republic,2021,40.2791,-16.753,0.758,True,False,False
+Central African Republic,2022,18.8177,-3.419,-1.312,True,False,False
+Sri Lanka,2004,68.0218,-4.221,0.636,True,False,False
+China,1959,40.1699,-0.013,0.674,True,False,False
+China,1960,33.419,-0.026,-0.032,True,False,False
+Comoros,1951,34.329,2.918,1.953,True,False,False
+Congo,1997,48.5746,-7.169,1.574,True,False,False
+Cook Islands,1972,65.5562,-55.033,-2.663,False,True,False
+Cook Islands,1973,65.8918,-57.559,-3.022,False,True,False
+Cook Islands,1974,65.9261,-58.748,-3.324,False,True,False
+Cook Islands,1975,65.7785,-59.111,-3.562,False,True,False
+Cook Islands,1976,65.5459,-56.061,-3.42,False,True,False
+Cook Islands,1998,69.3244,-52.286,-3.314,False,True,False
+Cook Islands,1999,69.585,-54.479,-3.792,False,True,False
+Cook Islands,2000,69.8493,-56.766,-3.993,False,True,False
+Cook Islands,2001,70.0852,-55.071,-3.978,False,True,False
+Cuba,2021,73.2006,-1.077,-0.752,True,False,False
+Cyprus,1974,54.5513,-12.393,-1.191,True,False,False
+Ecuador,2020,72.0036,-0.588,0.833,True,False,False
+El Salvador,1980,48.5892,-15.707,0.891,True,False,False
+Equatorial Guinea,1969,31.0002,-6.936,0.112,True,False,False
+Equatorial Guinea,1974,41.4861,-44.017,-2.471,True,False,False
+Equatorial Guinea,1975,37.32,-39.59,-2.367,True,False,False
+Equatorial Guinea,1976,30.5369,-33.366,-2.465,True,False,False
+Ethiopia,1957,32.1733,-0.615,1.493,True,False,False
+Ethiopia,1983,36.3188,1.802,2.468,True,False,False
+Eritrea,1957,30.3981,0.571,1.427,True,False,False
+Eritrea,1983,37.1729,1.067,2.031,True,False,False
+Eritrea,1991,50.5159,-171.156,-14.131,False,True,True
+Eritrea,1995,54.8222,67.203,9.499,False,True,False
+Eritrea,1998,49.9968,-14.654,1.072,True,False,False
+Eritrea,1999,44.5061,-1.703,1.869,True,False,False
+French Guiana,2021,74.1955,-2.839,1.879,True,False,False
+Djibouti,1974,49.5203,51.45,8.061,False,True,False
+Djibouti,1975,49.9228,62.07,9.091,False,True,False
+Djibouti,1976,50.3352,69.464,9.797,False,True,False
+Djibouti,1977,50.7555,70.542,9.891,False,True,False
+Djibouti,1978,51.1715,63.521,9.174,False,True,False
+Djibouti,1989,55.3686,63.943,9.047,False,True,False
+Djibouti,1990,55.4689,86.224,11.236,False,True,True
+Djibouti,1992,54.3753,-104.157,-7.707,False,True,False
+State of Palestine,2023,65.1703,-4.621,1.524,True,False,False
+Grenada,1983,64.3326,-13.418,0.556,True,False,False
+Guatemala,1976,47.6172,-8.103,1.935,True,False,False
+Guatemala,1982,48.8627,-6.377,2.122,True,False,False
+Guyana,2021,64.3228,-0.845,0.912,True,False,False
+Haiti,2010,45.5768,-2.899,0.689,True,False,False
+Holy See,1966,70.8835,-66.626,-2.261,False,True,False
+Holy See,1967,70.895,-72.009,-6.334,False,True,False
+Honduras,1998,62.4316,-2.027,2.518,True,False,False
+"China, Hong Kong SAR",1961,66.8659,-79.313,-4.859,False,True,False
+"China, Hong Kong SAR",1962,67.3115,-106.493,-7.816,False,True,False
+"China, Hong Kong SAR",1963,68.0216,-110.767,-8.541,False,True,False
+"China, Hong Kong SAR",1964,68.5759,357.14,37.887,False,True,True
+"China, Hong Kong SAR",1967,69.931,-359.282,-33.038,False,True,True
+"China, Hong Kong SAR",1968,70.6931,93.542,10.444,False,True,True
+"China, Hong Kong SAR",1969,71.0288,88.591,10.037,False,True,True
+"China, Hong Kong SAR",1970,71.2703,80.874,9.319,False,True,False
+Indonesia,1965,42.7619,-0.603,2.188,True,False,False
+Iraq,1980,60.9159,1.159,3.204,True,False,False
+Iraq,1988,56.6922,-4.824,2.337,True,False,False
+Jordan,1990,70.0935,73.47,10.529,False,True,True
+Jordan,2006,73.2248,78.198,10.125,False,True,True
+Jordan,2013,74.2816,76.282,9.769,False,True,False
+Jordan,2014,74.606,72.287,9.33,False,True,False
+Jordan,2015,75.06,51.426,7.194,False,True,False
+Dem. People's Republic of Korea,1995,60.766,-0.136,1.016,True,False,False
+Kosovo (under UNSC res. 1244),1998,68.5798,-141.796,-12.688,False,True,True
+Kosovo (under UNSC res. 1244),1999,58.2652,-90.025,-8.097,True,True,False
+Kosovo (under UNSC res. 1244),2020,74.2118,1.607,0.539,True,False,False
+Kuwait,1955,54.03,80.579,11.015,False,True,True
+Kuwait,1956,54.9435,72.374,10.492,False,True,True
+Kuwait,1958,56.8782,78.244,11.36,False,True,True
+Kuwait,1959,57.8925,72.831,10.833,False,True,True
+Kuwait,1960,58.9212,69.983,10.56,False,True,True
+Kuwait,1961,59.9525,71.162,10.691,False,True,True
+Kuwait,1962,60.9776,71.214,10.699,False,True,True
+Kuwait,1963,61.986,67.546,10.355,False,True,True
+Kuwait,1964,62.9737,62.431,9.856,False,True,False
+Kuwait,1965,63.9393,58.675,9.51,False,True,False
+Kuwait,1966,64.8778,56.555,9.316,False,True,False
+Kuwait,1967,65.7795,54.414,9.192,False,True,False
+Kuwait,1968,66.6088,51.473,8.957,False,True,False
+Kuwait,1990,72.854,-709.899,-71.064,False,True,True
+Kuwait,1991,73.31,340.853,36.09,False,True,True
+Kuwait,2011,77.8637,56.413,7.264,False,True,False
+Kuwait,2022,78.7881,80.305,8.892,False,True,False
+Lebanon,1975,57.7444,0.0,2.058,True,False,False
+Lebanon,1976,36.4358,0.0,0.409,True,False,False
+Lebanon,1982,47.1898,-4.249,0.937,True,False,False
+Lebanon,2013,78.0365,127.711,14.191,False,True,True
+Liberia,1990,37.6435,-320.437,-29.891,True,True,True
+Liberia,1994,42.6212,-56.47,-3.224,False,True,False
+Liberia,1997,48.3022,116.652,14.236,False,True,True
+Libya,2011,69.9496,-88.729,-6.968,False,True,False
+Libya,2023,69.3389,-0.274,1.01,True,False,False
+"China, Macao SAR",1958,63.1535,-52.644,-2.643,False,True,False
+"China, Macao SAR",1959,63.6831,-56.405,-3.157,False,True,False
+"China, Macao SAR",1960,63.9355,-50.353,-2.647,False,True,False
+"China, Macao SAR",1964,66.0336,354.537,37.095,False,True,True
+"China, Macao SAR",1973,70.0926,-249.173,-24.066,False,True,True
+Mexico,2020,70.4492,-1.163,0.697,True,False,False
+Montserrat,1992,71.3995,-60.278,-5.308,False,True,False
+Montserrat,1993,71.6541,-66.797,-6.162,False,True,False
+Montserrat,1994,71.9123,-72.483,-6.731,False,True,False
+Montserrat,1995,72.1731,-78.329,-7.569,False,True,False
+Montserrat,1996,72.415,-83.514,-8.409,False,True,False
+Montserrat,1997,63.2197,-86.807,-9.377,True,True,False
+Montserrat,1998,72.8449,-100.928,-10.499,False,True,True
+Montserrat,1999,72.9668,-105.152,-11.057,False,True,True
+Montserrat,2000,73.1501,-118.127,-12.645,False,True,True
+Mozambique,1994,46.0858,62.403,8.806,False,True,False
+Oman,2011,77.7405,160.106,17.999,False,True,True
+Oman,2012,78.1874,91.007,10.96,False,True,True
+Oman,2022,77.9106,71.68,8.595,False,True,False
+Namibia,1989,60.773,58.243,8.756,False,True,False
+Namibia,2021,60.8499,11.146,2.899,True,False,False
+Curaçao,2018,76.4929,140.938,14.122,False,True,True
+Curaçao,2019,76.4917,-50.622,-5.109,False,True,False
+Sint Maarten (Dutch part),1960,66.3507,66.311,8.441,False,True,False
+Sint Maarten (Dutch part),1961,66.6781,78.801,9.47,False,True,False
+Sint Maarten (Dutch part),1962,67.0538,76.9,9.443,False,True,False
+Sint Maarten (Dutch part),1963,67.4668,73.661,9.27,False,True,False
+Sint Maarten (Dutch part),1964,67.7816,70.873,8.801,False,True,False
+Sint Maarten (Dutch part),1965,68.0477,67.951,8.762,False,True,False
+Sint Maarten (Dutch part),1966,68.5055,64.537,8.324,False,True,False
+Sint Maarten (Dutch part),1967,69.0241,60.941,8.387,False,True,False
+Sint Maarten (Dutch part),1968,69.5514,57.086,7.912,False,True,False
+Sint Maarten (Dutch part),1969,70.2076,53.463,7.738,False,True,False
+Sint Maarten (Dutch part),1970,70.8556,50.047,7.362,False,True,False
+Sint Maarten (Dutch part),1981,71.8637,59.615,8.259,False,True,False
+Sint Maarten (Dutch part),1982,72.0096,81.608,10.354,False,True,True
+Sint Maarten (Dutch part),1983,72.1458,74.072,9.565,False,True,False
+Sint Maarten (Dutch part),1984,72.2802,68.215,8.936,False,True,False
+Sint Maarten (Dutch part),1985,72.3854,63.346,8.371,False,True,False
+Sint Maarten (Dutch part),1986,72.4359,59.244,7.959,False,True,False
+Sint Maarten (Dutch part),1987,72.4352,56.063,7.56,False,True,False
+Sint Maarten (Dutch part),1988,72.4563,53.908,7.266,False,True,False
+Sint Maarten (Dutch part),1989,72.4411,52.543,7.095,False,True,False
+Sint Maarten (Dutch part),1990,72.4137,51.78,6.873,False,True,False
+Sint Maarten (Dutch part),1991,72.384,50.856,6.796,False,True,False
+"Bonaire, Sint Eustatius and Saba",2011,76.3668,61.178,6.462,False,True,False
+"Bonaire, Sint Eustatius and Saba",2022,78.1545,57.856,5.912,False,True,False
+Nicaragua,1972,47.957,-2.805,2.708,True,False,False
+Niue,1972,65.0601,-65.182,-3.924,False,True,False
+Niue,1973,65.4002,-70.957,-4.475,False,True,False
+Niue,1974,65.7863,-78.041,-5.189,False,True,False
+Niue,1975,66.1157,-84.407,-5.984,False,True,False
+Niue,1976,66.5055,-77.347,-5.408,False,True,False
+Niue,1979,67.3796,-52.293,-3.039,False,True,False
+Niue,1980,67.6058,-60.006,-3.623,False,True,False
+Niue,1981,67.8203,-65.125,-4.45,False,True,False
+Niue,1982,67.9592,-65.211,-4.122,False,True,False
+Niue,1983,68.0689,-70.774,-4.859,False,True,False
+Niue,1984,68.0847,-75.28,-5.698,False,True,False
+Niue,1985,68.0511,-80.503,-5.932,False,True,False
+Niue,1986,67.9386,-67.198,-5.012,False,True,False
+Northern Mariana Islands,1968,64.0757,-86.836,-4.586,False,True,False
+Northern Mariana Islands,1969,64.4748,-87.2,-4.796,False,True,False
+Northern Mariana Islands,1971,65.1957,85.533,12.073,False,True,True
+Northern Mariana Islands,1972,65.557,75.337,10.876,False,True,True
+Northern Mariana Islands,1980,68.3019,84.934,10.83,False,True,True
+Northern Mariana Islands,1981,68.4792,104.361,12.591,False,True,True
+Northern Mariana Islands,1982,68.6916,94.183,11.449,False,True,True
+Northern Mariana Islands,1983,68.8583,85.661,10.497,False,True,True
+Northern Mariana Islands,1984,69.0619,78.261,9.665,False,True,False
+Northern Mariana Islands,1985,69.2307,71.453,8.939,False,True,False
+Northern Mariana Islands,1986,69.3568,63.705,8.319,False,True,False
+Northern Mariana Islands,1987,69.4795,55.098,7.758,False,True,False
+Northern Mariana Islands,1988,69.6144,51.196,7.254,False,True,False
+Northern Mariana Islands,1996,72.4416,73.511,9.594,False,True,False
+Northern Mariana Islands,1997,72.9466,63.432,8.525,False,True,False
+Northern Mariana Islands,1998,73.5727,59.393,7.601,False,True,False
+Northern Mariana Islands,1999,74.2624,51.186,6.828,False,True,False
+Northern Mariana Islands,2006,77.6882,-50.229,-2.823,False,True,False
+Northern Mariana Islands,2007,77.8627,-51.747,-3.003,False,True,False
+Northern Mariana Islands,2008,77.938,-51.829,-3.173,False,True,False
+Northern Mariana Islands,2009,77.9033,-50.989,-3.317,False,True,False
+Pakistan,1971,49.0016,-1.105,2.631,True,False,False
+Papua New Guinea,1951,35.4834,-2.444,1.908,True,False,False
+Paraguay,2021,68.1081,-1.231,1.054,True,False,False
+Peru,1970,47.7285,-1.159,2.24,True,False,False
+Philippines,2021,66.6755,-0.753,0.736,True,False,False
+Timor-Leste,1975,24.3142,15.952,1.417,True,False,False
+Timor-Leste,1999,45.2456,-315.012,-29.083,True,True,True
+Timor-Leste,2000,58.0969,54.05,8.305,False,True,False
+Timor-Leste,2001,58.7722,60.522,8.929,False,True,False
+Qatar,1961,58.5019,80.292,11.449,False,True,True
+Qatar,1962,59.2259,84.539,12.031,False,True,True
+Qatar,1963,59.9596,85.013,12.196,False,True,True
+Qatar,1964,60.7003,82.402,12.037,False,True,True
+Qatar,1965,61.4411,79.341,11.811,False,True,True
+Qatar,1966,62.1706,81.449,12.06,False,True,True
+Qatar,1967,62.884,81.496,12.047,False,True,True
+Qatar,1968,63.5768,79.194,11.807,False,True,True
+Qatar,1969,64.2462,75.612,11.401,False,True,True
+Qatar,1970,64.8893,90.924,12.837,False,True,True
+Qatar,1971,65.4899,81.038,11.492,False,True,True
+Qatar,1972,66.0704,72.782,10.414,False,True,True
+Qatar,1973,66.6288,65.75,9.539,False,True,False
+Qatar,1974,67.165,59.782,8.809,False,True,False
+Qatar,1975,67.6789,54.633,8.206,False,True,False
+Qatar,1976,68.1723,50.198,7.702,False,True,False
+Qatar,2005,76.9088,83.587,9.745,False,True,False
+Qatar,2006,77.3226,209.94,22.136,False,True,True
+Qatar,2007,77.7413,203.296,21.35,False,True,True
+Qatar,2008,78.2618,116.033,12.605,False,True,True
+Qatar,2009,78.8371,77.688,8.744,False,True,False
+Qatar,2010,79.4438,53.018,6.307,False,True,False
+Qatar,2013,80.9735,65.688,7.599,False,True,False
+Qatar,2014,81.3955,87.772,9.793,False,True,False
+Qatar,2015,81.785,73.112,8.279,False,True,False
+Rwanda,1963,43.998,-7.832,2.11,True,False,False
+Rwanda,1994,12.1575,-305.949,-41.785,True,True,True
+Rwanda,1995,41.5183,77.544,9.897,False,True,False
+Rwanda,1996,42.4858,203.868,22.576,False,True,True
+Rwanda,1997,41.9785,52.881,7.544,False,True,False
+Saint Barthélemy,1982,73.3258,83.438,9.417,False,True,False
+Saint Barthélemy,1983,73.5247,72.586,8.469,False,True,False
+Saint Barthélemy,1984,73.8306,61.979,7.552,False,True,False
+Saint Barthélemy,1985,74.0083,52.554,6.664,False,True,False
+Saint Kitts and Nevis,1969,61.0789,-51.169,-3.573,False,True,False
+Anguilla,2012,77.4058,-52.171,-4.455,False,True,False
+Anguilla,2021,78.4144,-61.211,-5.701,False,True,False
+Saint Lucia,2021,69.1194,0.0,-0.007,True,False,False
+Saint Martin (French part),1982,72.4193,164.525,18.868,False,True,True
+Saint Martin (French part),1983,72.55,167.436,19.179,False,True,True
+Saint Martin (French part),1984,72.7342,141.994,16.787,False,True,True
+Saint Martin (French part),1985,72.9431,122.647,15.089,False,True,True
+Saint Martin (French part),1986,73.2015,107.121,13.508,False,True,True
+Saint Martin (French part),1987,73.5185,94.279,12.31,False,True,True
+Saint Martin (French part),1988,73.8577,83.372,11.33,False,True,True
+Saint Martin (French part),1989,74.2049,73.867,10.291,False,True,True
+Saint Martin (French part),2019,80.0784,-78.269,-6.612,False,True,False
+Saint Martin (French part),2020,80.0848,-89.756,-8.487,False,True,False
+Saint Martin (French part),2022,80.2355,-51.086,-4.251,False,True,False
+Saint Martin (French part),2023,80.2238,-61.677,-5.398,False,True,False
+Saint Martin (French part),2024,80.4382,-54.51,-4.923,False,True,False
+San Marino,1977,75.6426,78.781,8.473,False,True,False
+San Marino,2011,83.7132,72.275,7.495,False,True,False
+Sierra Leone,1991,43.287,-56.276,-3.144,False,True,False
+Viet Nam,1968,52.6683,0.037,2.055,True,False,False
+Viet Nam,1972,51.9133,-0.044,2.118,True,False,False
+Somalia,1978,47.0131,83.492,11.116,False,True,True
+Somalia,1979,47.4051,106.943,13.486,False,True,True
+Somalia,1981,47.8174,-55.513,-2.456,False,True,False
+Somalia,1988,43.9326,-57.448,-2.765,True,True,False
+Somalia,1991,25.4184,-83.385,-7.563,True,True,False
+Somalia,2010,48.8996,-7.213,2.423,True,False,False
+Somalia,2011,32.4525,-26.415,-0.996,True,False,False
+Somalia,2017,52.1901,2.552,3.464,True,False,False
+South Africa,2021,62.0099,7.451,1.487,True,False,False
+Zimbabwe,1980,59.0621,55.472,8.978,False,True,False
+South Sudan,1958,27.6121,0.206,1.378,True,False,False
+South Sudan,1965,28.7806,0.499,1.67,True,False,False
+South Sudan,1966,25.6329,0.428,1.233,True,False,False
+South Sudan,1983,34.7333,-1.713,2.062,True,False,False
+South Sudan,1987,20.7211,-2.413,-0.125,True,False,False
+South Sudan,1988,10.9891,-20.022,-4.591,True,False,False
+South Sudan,1992,21.9378,3.071,0.895,True,False,False
+South Sudan,1995,31.5104,3.268,2.44,True,False,False
+South Sudan,1998,19.0479,11.438,0.928,True,False,False
+South Sudan,2014,45.6247,-41.969,-2.169,True,False,False
+South Sudan,2015,39.7565,-14.389,-0.102,True,False,False
+South Sudan,2016,36.72,-60.408,-5.021,True,True,False
+South Sudan,2017,35.3511,-65.354,-5.833,False,True,False
+Sudan,1983,49.5618,-2.843,2.7,True,False,False
+Western Sahara,1950,34.9266,74.228,9.096,False,True,False
+Western Sahara,1951,35.2914,71.107,9.229,False,True,False
+Western Sahara,1952,35.6545,67.529,8.696,False,True,False
+Western Sahara,1953,36.0184,64.356,8.952,False,True,False
+Western Sahara,1954,36.396,61.672,8.709,False,True,False
+Western Sahara,1955,36.7798,58.939,8.591,False,True,False
+Western Sahara,1956,37.1686,55.994,8.436,False,True,False
+Western Sahara,1957,37.5558,53.302,8.134,False,True,False
+Western Sahara,1958,37.9403,51.32,8.053,False,True,False
+Western Sahara,1967,41.3468,73.582,10.186,False,True,True
+Western Sahara,1968,41.7574,70.538,9.954,False,True,False
+Western Sahara,1969,42.1944,64.224,9.338,False,True,False
+Western Sahara,1970,42.6617,173.244,20.165,False,True,True
+Western Sahara,1975,35.9568,-279.041,-26.364,True,True,True
+Western Sahara,1976,36.2644,182.883,19.807,False,True,True
+Western Sahara,1977,38.2649,152.271,16.925,False,True,True
+Western Sahara,1978,40.3983,129.75,15.364,False,True,True
+Western Sahara,1979,37.5455,112.334,13.59,False,True,True
+Western Sahara,1980,39.3989,62.56,8.987,False,True,False
+Suriname,2021,68.9427,-0.787,0.778,True,False,False
+Syrian Arab Republic,1982,60.8391,-0.075,3.332,True,False,False
+Syrian Arab Republic,2012,66.2064,-43.905,-2.301,True,False,False
+Syrian Arab Republic,2013,65.1457,-96.059,-7.674,False,True,False
+Syrian Arab Republic,2014,65.4916,-71.9,-5.548,False,True,False
+Tajikistan,1992,57.0846,-16.866,1.21,True,False,False
+Togo,1993,53.8516,-69.168,-4.067,False,True,False
+Tokelau,1950,54.6919,-60.302,-2.764,False,True,False
+Tokelau,1967,61.27,-50.173,-2.402,False,True,False
+Tokelau,1968,61.602,-52.545,-2.627,False,True,False
+Tokelau,1969,61.9579,-55.165,-2.984,False,True,False
+Tokelau,1970,62.2986,-54.635,-3.43,False,True,False
+Tokelau,1971,62.6117,-55.717,-3.062,False,True,False
+Tokelau,2002,72.6536,-50.014,-3.534,False,True,False
+Tokelau,2003,72.8907,-53.551,-3.721,False,True,False
+Tokelau,2004,73.1245,-56.305,-4.224,False,True,False
+Tokelau,2005,73.342,-58.878,-4.723,False,True,False
+Tokelau,2012,75.0127,53.647,6.03,False,True,False
+Tokelau,2017,76.0554,67.758,7.986,False,True,False
+Tokelau,2018,76.2435,62.85,7.087,False,True,False
+Tokelau,2019,76.4524,57.068,6.954,False,True,False
+United Arab Emirates,1968,58.7268,144.753,17.32,False,True,True
+United Arab Emirates,1969,59.7636,166.494,19.268,False,True,True
+United Arab Emirates,1970,60.7796,142.363,16.691,False,True,True
+United Arab Emirates,1971,61.7529,123.647,14.732,False,True,True
+United Arab Emirates,1972,62.6751,108.796,13.189,False,True,True
+United Arab Emirates,1973,63.5416,96.799,11.945,False,True,True
+United Arab Emirates,1974,64.3511,86.844,10.911,False,True,True
+United Arab Emirates,1975,65.1054,78.069,9.998,False,True,False
+United Arab Emirates,1976,65.8061,128.117,14.932,False,True,True
+United Arab Emirates,1977,66.4714,114.207,13.665,False,True,True
+United Arab Emirates,1978,67.0832,101.769,12.526,False,True,True
+United Arab Emirates,1979,67.6446,90.172,11.442,False,True,True
+United Arab Emirates,1980,68.1567,76.94,10.163,False,True,True
+United Arab Emirates,1996,71.8203,69.41,8.404,False,True,False
+United Arab Emirates,1997,72.5589,65.063,7.866,False,True,False
+United Arab Emirates,1998,73.66,60.297,7.387,False,True,False
+United Arab Emirates,1999,74.9818,55.257,6.943,False,True,False
+United Arab Emirates,2000,76.347,51.085,6.542,False,True,False
+United Arab Emirates,2006,81.1553,79.716,9.063,False,True,False
+United Arab Emirates,2007,81.4384,128.432,13.844,False,True,True
+United Arab Emirates,2008,81.5915,83.014,9.187,False,True,False
+Ukraine,2022,72.6582,-138.846,-14.762,False,True,True
+Guernsey,1957,72.6143,0.772,0.399,True,False,False
+United States Virgin Islands,1961,63.2255,52.832,7.703,False,True,False
+United States Virgin Islands,1962,62.7765,50.163,7.928,False,True,False
+Wallis and Futuna Islands,1961,47.7118,-51.12,-4.083,False,True,False

@@ -1,0 +1,252 @@
+{
+  "country_areas": 237,
+  "medium_rows": 84360,
+  "country_years_1950_2100": 35787,
+  "supplement_countries": 236,
+  "historical_end": 2023,
+  "projection_start": 2024,
+  "world_peak_july_year": 2084,
+  "world_peak_billions": 10.289315244,
+  "baseline_jan2024_world_billions": 8.126964296,
+  "turkiye": [
+    {
+      "Time": 2050,
+      "baseline": 87371.675,
+      "Medium": 91311.298,
+      "momentum": 13382.906000000003,
+      "mortality": 2807.3459999999905,
+      "fertility": -7634.110000000001,
+      "migration": -4616.519,
+      "total_change": 3939.6229999999923,
+      "Lower 95 PI": 74566.435,
+      "Upper 95 PI": 107919.319,
+      "fertility_migration_interaction": 463.5109999999986
+    },
+    {
+      "Time": 2100,
+      "baseline": 87371.675,
+      "Medium": 65666.935,
+      "momentum": 14139.695999999996,
+      "mortality": 11767.743000000002,
+      "fertility": -33615.268,
+      "migration": -13996.911000000007,
+      "total_change": -21704.740000000005,
+      "Lower 95 PI": 25883.038,
+      "Upper 95 PI": 125354.854,
+      "fertility_migration_interaction": 3786.0190000000002
+    }
+  ],
+  "threshold_horizon_sensitivity": [
+    {
+      "year": 2050,
+      "definition": "TFR<2.0",
+      "minimum_population_thousands": 0,
+      "eligible": 237,
+      "low_fertility": 124,
+      "low_and_growing": 62,
+      "low_and_growing_share": 0.5,
+      "population_weighted_growing_share": 0.5747248700038219
+    },
+    {
+      "year": 2050,
+      "definition": "TFR<2.0",
+      "minimum_population_thousands": 1000,
+      "eligible": 161,
+      "low_fertility": 80,
+      "low_and_growing": 38,
+      "low_and_growing_share": 0.475,
+      "population_weighted_growing_share": 0.5745849303333037
+    },
+    {
+      "year": 2050,
+      "definition": "TFR<2.1",
+      "minimum_population_thousands": 0,
+      "eligible": 237,
+      "low_fertility": 130,
+      "low_and_growing": 64,
+      "low_and_growing_share": 0.49230769230769234,
+      "population_weighted_growing_share": 0.5768813908809383
+    },
+    {
+      "year": 2050,
+      "definition": "TFR<2.1",
+      "minimum_population_thousands": 1000,
+      "eligible": 161,
+      "low_fertility": 81,
+      "low_and_growing": 39,
+      "low_and_growing_share": 0.48148148148148145,
+      "population_weighted_growing_share": 0.5768007596477173
+    },
+    {
+      "year": 2050,
+      "definition": "TFR<2.2",
+      "minimum_population_thousands": 0,
+      "eligible": 237,
+      "low_fertility": 138,
+      "low_and_growing": 71,
+      "low_and_growing_share": 0.5144927536231884,
+      "population_weighted_growing_share": 0.6133107711119798
+    },
+    {
+      "year": 2050,
+      "definition": "TFR<2.2",
+      "minimum_population_thousands": 1000,
+      "eligible": 161,
+      "low_fertility": 85,
+      "low_and_growing": 43,
+      "low_and_growing_share": 0.5058823529411764,
+      "population_weighted_growing_share": 0.6131962489784252
+    },
+    {
+      "year": 2050,
+      "definition": "NRR<1",
+      "minimum_population_thousands": 0,
+      "eligible": 237,
+      "low_fertility": 130,
+      "low_and_growing": 66,
+      "low_and_growing_share": 0.5076923076923077,
+      "population_weighted_growing_share": 0.6014839157838577
+    },
+    {
+      "year": 2075,
+      "definition": "TFR<2.0",
+      "minimum_population_thousands": 0,
+      "eligible": 237,
+      "low_fertility": 124,
+      "low_and_growing": 44,
+      "low_and_growing_share": 0.3548387096774194,
+      "population_weighted_growing_share": 0.5018920743673051
+    },
+    {
+      "year": 2075,
+      "definition": "TFR<2.0",
+      "minimum_population_thousands": 1000,
+      "eligible": 161,
+      "low_fertility": 80,
+      "low_and_growing": 30,
+      "low_and_growing_share": 0.375,
+      "population_weighted_growing_share": 0.5019643242186689
+    },
+    {
+      "year": 2075,
+      "definition": "TFR<2.1",
+      "minimum_population_thousands": 0,
+      "eligible": 237,
+      "low_fertility": 130,
+      "low_and_growing": 46,
+      "low_and_growing_share": 0.35384615384615387,
+      "population_weighted_growing_share": 0.5044437997760417
+    },
+    {
+      "year": 2075,
+      "definition": "TFR<2.1",
+      "minimum_population_thousands": 1000,
+      "eligible": 161,
+      "low_fertility": 81,
+      "low_and_growing": 31,
+      "low_and_growing_share": 0.38271604938271603,
+      "population_weighted_growing_share": 0.5045584073358576
+    },
+    {
+      "year": 2075,
+      "definition": "TFR<2.2",
+      "minimum_population_thousands": 0,
+      "eligible": 237,
+      "low_fertility": 138,
+      "low_and_growing": 54,
+      "low_and_growing_share": 0.391304347826087,
+      "population_weighted_growing_share": 0.547117523431752
+    },
+    {
+      "year": 2075,
+      "definition": "TFR<2.2",
+      "minimum_population_thousands": 1000,
+      "eligible": 161,
+      "low_fertility": 85,
+      "low_and_growing": 35,
+      "low_and_growing_share": 0.4117647058823529,
+      "population_weighted_growing_share": 0.5471667995077965
+    },
+    {
+      "year": 2075,
+      "definition": "NRR<1",
+      "minimum_population_thousands": 0,
+      "eligible": 237,
+      "low_fertility": 130,
+      "low_and_growing": 48,
+      "low_and_growing_share": 0.36923076923076925,
+      "population_weighted_growing_share": 0.5332445629009283
+    },
+    {
+      "year": 2100,
+      "definition": "TFR<2.0",
+      "minimum_population_thousands": 0,
+      "eligible": 237,
+      "low_fertility": 124,
+      "low_and_growing": 26,
+      "low_and_growing_share": 0.20967741935483872,
+      "population_weighted_growing_share": 0.4212124120554056
+    },
+    {
+      "year": 2100,
+      "definition": "TFR<2.0",
+      "minimum_population_thousands": 1000,
+      "eligible": 161,
+      "low_fertility": 80,
+      "low_and_growing": 19,
+      "low_and_growing_share": 0.2375,
+      "population_weighted_growing_share": 0.4215654561571431
+    },
+    {
+      "year": 2100,
+      "definition": "TFR<2.1",
+      "minimum_population_thousands": 0,
+      "eligible": 237,
+      "low_fertility": 130,
+      "low_and_growing": 28,
+      "low_and_growing_share": 0.2153846153846154,
+      "population_weighted_growing_share": 0.4242019205792433
+    },
+    {
+      "year": 2100,
+      "definition": "TFR<2.1",
+      "minimum_population_thousands": 1000,
+      "eligible": 161,
+      "low_fertility": 81,
+      "low_and_growing": 20,
+      "low_and_growing_share": 0.24691358024691357,
+      "population_weighted_growing_share": 0.42457830715868516
+    },
+    {
+      "year": 2100,
+      "definition": "TFR<2.2",
+      "minimum_population_thousands": 0,
+      "eligible": 237,
+      "low_fertility": 138,
+      "low_and_growing": 33,
+      "low_and_growing_share": 0.2391304347826087,
+      "population_weighted_growing_share": 0.46452787036104415
+    },
+    {
+      "year": 2100,
+      "definition": "TFR<2.2",
+      "minimum_population_thousands": 1000,
+      "eligible": 161,
+      "low_fertility": 85,
+      "low_and_growing": 23,
+      "low_and_growing_share": 0.27058823529411763,
+      "population_weighted_growing_share": 0.4649588339271649
+    },
+    {
+      "year": 2100,
+      "definition": "NRR<1",
+      "minimum_population_thousands": 0,
+      "eligible": 237,
+      "low_fertility": 130,
+      "low_and_growing": 29,
+      "low_and_growing_share": 0.2230769230769231,
+      "population_weighted_growing_share": 0.44828395322608255
+    }
+  ],
+  "units": "population stocks/components in thousands; percentages in percentage points of Jan 2024 baseline"
+}

@@ -1,0 +1,238 @@
+Location,Region,SubRegion,CoreCountry,year_below_repl
+Afghanistan,Asia,Southern Asia,True,2096.0
+Albania,Europe,Southern Europe,True,2002.0
+Algeria,Africa,Northern Africa,True,2043.0
+American Samoa,Oceania,Polynesia,False,2033.0
+Andorra,Europe,Southern Europe,True,1977.0
+Angola,Africa,Middle Africa,True,
+Antigua and Barbuda,Americas,Caribbean,True,1982.0
+Azerbaijan,Asia,Western Asia,True,1996.0
+Argentina,Americas,South America,True,2018.0
+Australia,Oceania,Australia and New Zealand,True,1976.0
+Austria,Europe,Western Europe,True,1950.0
+Bahamas,Americas,Caribbean,True,2000.0
+Bahrain,Asia,Western Asia,True,2009.0
+Bangladesh,Asia,Southern Asia,True,2026.0
+Armenia,Asia,Western Asia,True,1994.0
+Barbados,Americas,Caribbean,True,1978.0
+Belgium,Europe,Western Europe,True,1972.0
+Bermuda,Americas,Northern America,False,1974.0
+Bhutan,Asia,Southern Asia,True,2012.0
+Bolivia (Plurinational State of),Americas,South America,True,2047.0
+Bosnia and Herzegovina,Europe,Southern Europe,True,1978.0
+Botswana,Africa,Southern Africa,True,2049.0
+Brazil,Americas,South America,True,2002.0
+Belize,Americas,Central America,True,2020.0
+Solomon Islands,Oceania,Melanesia,True,2083.0
+British Virgin Islands,Americas,Caribbean,False,1984.0
+Brunei Darussalam,Asia,South-eastern Asia,True,2005.0
+Bulgaria,Europe,Eastern Europe,True,1965.0
+Myanmar,Asia,South-eastern Asia,True,2024.0
+Burundi,Africa,Eastern Africa,True,2095.0
+Belarus,Europe,Eastern Europe,True,1976.0
+Cambodia,Asia,South-eastern Asia,True,2045.0
+Cameroon,Africa,Middle Africa,True,2100.0
+Canada,Americas,Northern America,True,1972.0
+Cabo Verde,Africa,Western Africa,True,2013.0
+Cayman Islands,Americas,Caribbean,False,1982.0
+Central African Republic,Africa,Middle Africa,True,2094.0
+Sri Lanka,Asia,Southern Asia,True,2015.0
+Chad,Africa,Middle Africa,True,
+Chile,Americas,South America,True,1999.0
+China,Asia,Eastern Asia,True,1991.0
+"China, Taiwan Province of China",Asia,Eastern Asia,False,1984.0
+Colombia,Americas,South America,True,2009.0
+Comoros,Africa,Eastern Africa,True,2087.0
+Mayotte,Africa,Eastern Africa,False,
+Congo,Africa,Middle Africa,True,
+Democratic Republic of the Congo,Africa,Middle Africa,True,
+Cook Islands,Oceania,Polynesia,False,2021.0
+Costa Rica,Americas,Central America,True,2003.0
+Croatia,Europe,Southern Europe,True,1968.0
+Cuba,Americas,Caribbean,True,1978.0
+Cyprus,Asia,Western Asia,True,1977.0
+Czechia,Europe,Eastern Europe,True,1959.0
+Benin,Africa,Western Africa,True,
+Denmark,Europe,Northern Europe,True,1969.0
+Dominica,Americas,Caribbean,True,2003.0
+Dominican Republic,Americas,Caribbean,True,2030.0
+Ecuador,Americas,South America,True,2019.0
+El Salvador,Americas,Central America,True,2015.0
+Equatorial Guinea,Africa,Middle Africa,True,2078.0
+Ethiopia,Africa,Eastern Africa,True,2075.0
+Eritrea,Africa,Eastern Africa,True,2080.0
+Estonia,Europe,Northern Europe,True,1956.0
+Faroe Islands,Europe,Northern Europe,False,2033.0
+Falkland Islands (Malvinas),Americas,South America,False,1982.0
+Fiji,Oceania,Melanesia,True,2035.0
+Finland,Europe,Northern Europe,True,1969.0
+France,Europe,Western Europe,True,1975.0
+French Guiana,Americas,South America,False,2087.0
+French Polynesia,Oceania,Polynesia,False,2011.0
+Djibouti,Africa,Eastern Africa,True,2047.0
+Gabon,Africa,Middle Africa,True,2084.0
+Georgia,Asia,Western Asia,True,1992.0
+Gambia,Africa,Western Africa,True,2065.0
+State of Palestine,Asia,Western Asia,True,2064.0
+Germany,Europe,Western Europe,True,1970.0
+Ghana,Africa,Western Africa,True,2079.0
+Gibraltar,Europe,Southern Europe,False,2002.0
+Kiribati,Oceania,Micronesia,True,2081.0
+Greece,Europe,Southern Europe,True,1982.0
+Greenland,Americas,Northern America,False,1983.0
+Grenada,Americas,Caribbean,True,2009.0
+Guadeloupe,Americas,Caribbean,False,2017.0
+Guam,Oceania,Micronesia,False,2055.0
+Guatemala,Americas,Central America,True,2032.0
+Guinea,Africa,Western Africa,True,2088.0
+Guyana,Americas,South America,True,2040.0
+Haiti,Americas,Caribbean,True,2047.0
+Holy See,Europe,Southern Europe,True,1950.0
+Honduras,Americas,Central America,True,2043.0
+"China, Hong Kong SAR",Asia,Eastern Asia,False,1980.0
+Hungary,Europe,Eastern Europe,True,1959.0
+Iceland,Europe,Northern Europe,True,1984.0
+India,Asia,Southern Asia,True,2020.0
+Indonesia,Asia,South-eastern Asia,True,2025.0
+Iran (Islamic Republic of),Asia,Southern Asia,True,1999.0
+Iraq,Asia,Western Asia,True,2075.0
+Ireland,Europe,Northern Europe,True,1989.0
+Israel,Asia,Western Asia,True,2069.0
+Italy,Europe,Southern Europe,True,1976.0
+Côte d'Ivoire,Africa,Western Africa,True,
+Jamaica,Americas,Caribbean,True,2006.0
+Japan,Asia,Eastern Asia,True,1957.0
+Kazakhstan,Asia,Central Asia,True,1996.0
+Jordan,Asia,Western Asia,True,2044.0
+Kenya,Africa,Eastern Africa,True,2066.0
+Dem. People's Republic of Korea,Asia,Eastern Asia,True,1996.0
+Republic of Korea,Asia,Eastern Asia,True,1984.0
+Kosovo (under UNSC res. 1244),Europe,Southern Europe,False,2011.0
+Kuwait,Asia,Western Asia,True,2010.0
+Kyrgyzstan,Asia,Central Asia,True,2061.0
+Lao People's Democratic Republic,Asia,South-eastern Asia,True,2035.0
+Lebanon,Asia,Western Asia,True,2032.0
+Lesotho,Africa,Southern Africa,True,2054.0
+Latvia,Europe,Northern Europe,True,1950.0
+Liberia,Africa,Western Africa,True,2084.0
+Libya,Africa,Northern Africa,True,2030.0
+Liechtenstein,Europe,Western Europe,True,1970.0
+Lithuania,Europe,Northern Europe,True,1978.0
+Luxembourg,Europe,Western Europe,True,1950.0
+"China, Macao SAR",Asia,Eastern Asia,False,1970.0
+Madagascar,Africa,Eastern Africa,True,2096.0
+Malawi,Africa,Eastern Africa,True,2081.0
+Malaysia,Asia,South-eastern Asia,True,2013.0
+Maldives,Asia,Southern Asia,True,2014.0
+Mali,Africa,Western Africa,True,2099.0
+Malta,Europe,Southern Europe,True,1968.0
+Martinique,Americas,Caribbean,False,1985.0
+Mauritania,Africa,Western Africa,True,
+Mauritius,Africa,Eastern Africa,True,1985.0
+Mexico,Americas,Central America,True,2016.0
+Monaco,Europe,Western Europe,True,1987.0
+Mongolia,Asia,Eastern Asia,True,2003.0
+Republic of Moldova,Europe,Eastern Europe,True,1994.0
+Montenegro,Europe,Southern Europe,True,1986.0
+Montserrat,Americas,Caribbean,False,1994.0
+Morocco,Africa,Northern Africa,True,2030.0
+Mozambique,Africa,Eastern Africa,True,2087.0
+Oman,Asia,Western Asia,True,2037.0
+Namibia,Africa,Southern Africa,True,2074.0
+Nauru,Oceania,Micronesia,True,2082.0
+Nepal,Asia,Southern Asia,True,2019.0
+Netherlands,Europe,Western Europe,True,1973.0
+Curaçao,Americas,Caribbean,False,2004.0
+Aruba,Americas,Caribbean,False,1998.0
+Sint Maarten (Dutch part),Americas,Caribbean,False,1987.0
+"Bonaire, Sint Eustatius and Saba",Americas,Caribbean,False,1998.0
+New Caledonia,Oceania,Melanesia,False,2015.0
+Vanuatu,Oceania,Melanesia,True,
+New Zealand,Oceania,Australia and New Zealand,True,1978.0
+Nicaragua,Americas,Central America,True,2029.0
+Niger,Africa,Western Africa,True,2091.0
+Nigeria,Africa,Western Africa,True,2078.0
+Niue,Oceania,Polynesia,False,2043.0
+Norway,Europe,Northern Europe,True,1975.0
+Northern Mariana Islands,Oceania,Micronesia,False,1989.0
+Micronesia (Fed. States of),Oceania,Micronesia,True,2054.0
+Marshall Islands,Oceania,Micronesia,True,2051.0
+Palau,Oceania,Micronesia,True,1998.0
+Pakistan,Asia,Southern Asia,True,2079.0
+Panama,Americas,Central America,True,2025.0
+Papua New Guinea,Oceania,Melanesia,True,2070.0
+Paraguay,Americas,South America,True,2043.0
+Peru,Americas,South America,True,2019.0
+Philippines,Asia,South-eastern Asia,True,2020.0
+Poland,Europe,Eastern Europe,True,1989.0
+Portugal,Europe,Southern Europe,True,1982.0
+Guinea-Bissau,Africa,Western Africa,True,2079.0
+Timor-Leste,Asia,South-eastern Asia,True,2038.0
+Puerto Rico,Americas,Caribbean,False,1998.0
+Qatar,Asia,Western Asia,True,2011.0
+Réunion,Africa,Eastern Africa,False,2027.0
+Romania,Europe,Eastern Europe,True,1962.0
+Russian Federation,Europe,Eastern Europe,True,1967.0
+Rwanda,Africa,Eastern Africa,True,2077.0
+Saint Barthélemy,Americas,Caribbean,False,1970.0
+Saint Helena,Africa,Western Africa,False,1991.0
+Saint Kitts and Nevis,Americas,Caribbean,True,2001.0
+Anguilla,Americas,Caribbean,False,1992.0
+Saint Lucia,Americas,Caribbean,True,2002.0
+Saint Martin (French part),Americas,Caribbean,False,2047.0
+Saint Pierre and Miquelon,Americas,Northern America,False,1977.0
+Saint Vincent and the Grenadines,Americas,Caribbean,True,2004.0
+San Marino,Europe,Southern Europe,True,1975.0
+Sao Tome and Principe,Africa,Middle Africa,True,2084.0
+Saudi Arabia,Asia,Western Asia,True,2034.0
+Senegal,Africa,Western Africa,True,2094.0
+Serbia,Europe,Southern Europe,True,1963.0
+Seychelles,Africa,Eastern Africa,True,1998.0
+Sierra Leone,Africa,Western Africa,True,2071.0
+Singapore,Asia,South-eastern Asia,True,1975.0
+Slovakia,Europe,Eastern Europe,True,1989.0
+Viet Nam,Asia,South-eastern Asia,True,1998.0
+Slovenia,Europe,Southern Europe,True,1981.0
+Somalia,Africa,Eastern Africa,True,
+South Africa,Africa,Southern Africa,True,2031.0
+Zimbabwe,Africa,Eastern Africa,True,2085.0
+Spain,Europe,Southern Europe,True,1981.0
+South Sudan,Africa,Eastern Africa,True,2076.0
+Sudan,Africa,Northern Africa,True,
+Western Sahara,Africa,Northern Africa,False,2028.0
+Suriname,Americas,South America,True,2031.0
+Eswatini,Africa,Southern Africa,True,2049.0
+Sweden,Europe,Northern Europe,True,1968.0
+Switzerland,Europe,Western Europe,True,1971.0
+Syrian Arab Republic,Asia,Western Asia,True,2047.0
+Tajikistan,Asia,Central Asia,True,2068.0
+Thailand,Asia,South-eastern Asia,True,1990.0
+Togo,Africa,Western Africa,True,
+Tokelau,Oceania,Polynesia,False,2053.0
+Tonga,Oceania,Polynesia,True,2078.0
+Trinidad and Tobago,Americas,Caribbean,True,1994.0
+United Arab Emirates,Asia,Western Asia,True,2006.0
+Tunisia,Africa,Northern Africa,True,1999.0
+Türkiye,Asia,Western Asia,True,2010.0
+Turkmenistan,Asia,Central Asia,True,2053.0
+Turks and Caicos Islands,Americas,Caribbean,False,2006.0
+Tuvalu,Oceania,Polynesia,True,2079.0
+Uganda,Africa,Eastern Africa,True,2076.0
+Ukraine,Europe,Eastern Europe,True,1964.0
+North Macedonia,Europe,Southern Europe,True,1996.0
+Egypt,Africa,Northern Africa,True,2060.0
+United Kingdom,Europe,Northern Europe,True,1973.0
+Guernsey,Europe,Northern Europe,False,1954.0
+Jersey,Europe,Northern Europe,False,1951.0
+Isle of Man,Europe,Northern Europe,False,1954.0
+United Republic of Tanzania,Africa,Eastern Africa,True,
+United States of America,Americas,Northern America,True,1972.0
+United States Virgin Islands,Americas,Caribbean,False,2023.0
+Burkina Faso,Africa,Western Africa,True,2080.0
+Uruguay,Americas,South America,True,2004.0
+Uzbekistan,Asia,Central Asia,True,2079.0
+Venezuela (Bolivarian Republic of),Americas,South America,True,2022.0
+Wallis and Futuna Islands,Oceania,Polynesia,False,2005.0
+Samoa,Oceania,Polynesia,True,2096.0
+Yemen,Asia,Western Asia,True,2081.0
+Zambia,Africa,Eastern Africa,True,2098.0

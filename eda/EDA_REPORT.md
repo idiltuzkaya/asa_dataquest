@@ -14,7 +14,7 @@ The raw WPP 2024 Medium dataset contains **84,360 rows** across **555 distinct l
 - **Reconciliation Proof:** Summing population, births, and deaths across these 237 countries reconciles with the official UN World total with a relative discrepancy `< 3.63e-7` across all 151 years.
 - **Year 2101 Truncation:** Year 2101 was removed from the active time series because only `TPopulation1Jan` was populated; all mortality, fertility, age-structure, and migration columns for 2101 were 100% missing (`NaN`).
 
-![Location Types](file:///Users/idilbukretuzkaya/Desktop/2026%20ASA%20DataQuest/eda/figures/f01_location_types.png)
+![Location Types](figures/f01_location_types.png)
 
 ### 1.2 Region and Sub-Region Enrichment
 To enable hierarchical regional analysis, the 237 countries were mapped onto the team-provided 5-Region / 21-SubRegion standard:
@@ -31,7 +31,7 @@ To enable hierarchical regional analysis, the 237 countries were mapped onto the
   - $\text{Population}_{\text{Male}} + \text{Population}_{\text{Female}} = \text{Population}_{\text{Total}}$ ($\max |\text{error}| \le 0.001\text{k}$)
   - Life expectancy bounds: $\min(\text{LExMale}, \text{LExFemale}) \le \text{LEx} \le \max(\text{LExMale}, \text{LExFemale})$ rigorously verified across all country-years.
 
-![Missingness Profile](file:///Users/idilbukretuzkaya/Desktop/2026%20ASA%20DataQuest/eda/figures/f02_missingness.png)
+![Missingness Profile](figures/f02_missingness.png)
 
 ---
 
@@ -41,31 +41,31 @@ To enable hierarchical regional analysis, the 237 countries were mapped onto the
 - **Peak Global Population:** Under the Medium variant, world population expands from **2.47 billion (1950)** to **8.06 billion (2023)**, peaking at **10.29 billion in 2084**, before gently declining to **10.19 billion by 2100**.
 - **Geographic Center of Gravity:**
   - **Africa:** Expands from 9.1% of global population in 1950 to 18.2% in 2023, and reaches **37.4% by 2100**.
-  - **Asia:** Peaked in demographic share in the late 20th century (59.1% in 2023) and declines to **45.4% by 2100**.
+  - **Asia:** Share peaked at 60.7% in 2002 (59.1% in 2023) and declines to **45.4% by 2100**.
   - **Europe:** Contracts from 22.1% (1950) to 9.3% (2023) and down to **5.8% by 2100**.
 
-![World Population & Regional Share](file:///Users/idilbukretuzkaya/Desktop/2026%20ASA%20DataQuest/eda/figures/f06_world_population.png)
-![Regional Trajectories](file:///Users/idilbukretuzkaya/Desktop/2026%20ASA%20DataQuest/eda/figures/f07_regional_trajectories.png)
+![World Population & Regional Share](figures/f06_world_population.png)
+![Regional Trajectories](figures/f07_regional_trajectories.png)
 
 ### 2.2 Shift in Cross-Country Distributions
-- **Fertility Collapse & Spread:** In 1950, global TFR exhibited a bimodal distribution with a median of ~5.0. By 2023, **130 countries (representing 67.3% of the human population)** have dropped below the replacement threshold ($TFR < 2.1$). By 2100, **224 of 237 countries (87.0% of world population)** are projected to be sub-replacement. Only 13 countries (primarily Central and Western African nations like Chad, DR Congo, Niger, Angola, Somalia) are projected to remain at or above replacement by 2100.
-- **Aging Divergence Before Convergence:** Cross-country standard deviation in life expectancy decreased monotonically from 11.69 years (1950) to 7.01 years (2023) and 6.49 years (2100). Conversely, cross-country divergence in **Median Age peaked in 2037** at $SD = 10.0$ years, driven by Europe and East Asia aging rapidly while Sub-Saharan Africa remains young.
+- **Fertility Collapse & Spread:** In 1950, global TFR exhibited a bimodal distribution with a median of ~5.8. By 2023, **130 countries (representing 67.3% of the human population)** have dropped below the replacement threshold ($TFR < 2.1$). By 2100, **224 of 237 countries (87.0% of world population)** are projected to be sub-replacement. Only 13 countries (Angola, Benin, Chad, Congo, Côte d'Ivoire, DR Congo, Mauritania, Mayotte, Somalia, Sudan, Tanzania, Togo, Vanuatu; Niger crosses below replacement in 2091) are projected to remain at or above replacement by 2100.
+- **Aging Divergence Before Convergence:** Cross-country standard deviation in life expectancy decreased monotonically from 11.69 years (1950) to 7.01 years (2023) and 6.49 years (2100). Conversely, cross-country divergence in **Median Age peaked in 2037** at $SD = 10.2$ years, driven by Europe and East Asia aging rapidly while Sub-Saharan Africa remains young.
 
-![Cross-Country Distribution Shift](file:///Users/idilbukretuzkaya/Desktop/2026%20ASA%20DataQuest/eda/figures/f04_distribution_shift.png)
-![Fertility Transition Timing](file:///Users/idilbukretuzkaya/Desktop/2026%20ASA%20DataQuest/eda/figures/f20_fertility_transition_timing.png)
-![Dispersion & Convergence](file:///Users/idilbukretuzkaya/Desktop/2026%20ASA%20DataQuest/eda/figures/f09_cross_country_dispersion.png)
+![Cross-Country Distribution Shift](figures/f04_distribution_shift.png)
+![Fertility Transition Timing](figures/f20_fertility_transition_timing.png)
+![Dispersion & Convergence](figures/f09_cross_country_dispersion.png)
 
 ### 2.3 Bivariate Structure, Multicollinearity & Simpson's Paradox
 - **Correlation Dissection:**
   - $TFR$ and $MedianAgePop$: Strongly negative pooled Spearman ($\rho = -0.91$) and within-country ($\rho = -0.71$).
   - $LEx$ and $MedianAgePop$: Strongly positive pooled ($\rho = 0.90$) and within-country ($\rho = 0.81$).
-  - **Between vs. Within Divergence:** Crude Death Rate ($CDR$) vs. Life Expectancy ($LEx$) exhibits an important dynamic: across countries (between), aging high-LEx nations have higher CDR than young low-LEx nations due to population age structure ($\rho_{between} = -0.27$), whereas within a given country over time, improving health lowers mortality rates ($\rho_{within} = -0.42$).
-- **Multicollinearity Warning (VIF):** Regressing population growth on standard demographic indicators yields severe variance inflation ($VIF > 700$ for `PopGrowthRate`, `CBR`, `CNMR`). For modeling, dimensionality reduction or orthogonal components are necessary.
+  - **Composition masks the mortality link:** Crude Death Rate ($CDR$) vs. Life Expectancy ($LEx$) is negative both between countries ($\rho_{between} = -0.27$) and within countries over time ($\rho_{within} = -0.42$), but close to zero in the 2023 cross-section ($\rho = +0.06$): aged, high-LEx populations have high crude death rates purely because of their age structure. This is not a sign flip; among the 12 core indicators the only between/within sign flip is $CDR$–$MAC$ ($-0.15$ vs. $+0.35$).
+- **Multicollinearity Warning (VIF):** Regressing population growth on standard demographic indicators yields severe variance inflation (VIF: `PopGrowthRate` 731, `CBR` 482, `CNMR` 369). This is mechanical: the accounting identity $10 \times PopGrowthRate \approx CBR - CDR + CNMR$ makes these columns near-linear combinations of each other, so they must not enter one regression together. For modeling, dimensionality reduction or orthogonal components are necessary.
 - **Dimensionality (PCA):** Principal Component Analysis reveals that **2 components capture 74.2% of total variance** across 12 core indicators. PC1 represents the **Demographic Transition Axis** (Median Age, Life Expectancy vs. Fertility/Mortality), while PC2 captures **Population Dynamics & Migration Intensity**.
 
-![Bivariate Scatter 2023](file:///Users/idilbukretuzkaya/Desktop/2026%20ASA%20DataQuest/eda/figures/f13_bivariate_scatter_2023.png)
-![Correlation Matrices](file:///Users/idilbukretuzkaya/Desktop/2026%20ASA%20DataQuest/eda/figures/f11_correlation_pooled_between_within.png)
-![PCA Biplot & Scree](file:///Users/idilbukretuzkaya/Desktop/2026%20ASA%20DataQuest/eda/figures/f15_pca_clusters.png)
+![Bivariate Scatter 2023](figures/f13_bivariate_scatter_2023.png)
+![Correlation Matrices](figures/f11_correlation_pooled_between_within.png)
+![PCA Biplot & Scree](figures/f15_pca_clusters.png)
 
 ### 2.4 Demographic Shocks & Outlier Taxonomy
 Historical demographic records exhibit major exogenous shocks that must be appropriately flagged rather than blindly removed:
@@ -73,15 +73,16 @@ Historical demographic records exhibit major exogenous shocks that must be appro
 2. **Migration Shocks ($|CNMR| > 50$ per 1,000):** 305 country-years identified, prominent in the Gulf economies (Qatar, UAE, Kuwait) and conflict zones (Ukraine 2022 outflow of 5.7M net migrants, Syrian Arab Republic 2013).
 3. **Small Population Volatility:** Micro-states with population $< 100\text{k}$ account for 37.4% of all shock flags despite comprising only 15.6% of rows.
 
-![Demographic Shocks](file:///Users/idilbukretuzkaya/Desktop/2026%20ASA%20DataQuest/eda/figures/f19_shocks.png)
-![Migration Dynamics](file:///Users/idilbukretuzkaya/Desktop/2026%20ASA%20DataQuest/eda/figures/f16_migration.png)
+![Demographic Shocks](figures/f19_shocks.png)
+![Migration Dynamics](figures/f16_migration.png)
 
 ### 2.5 Estimate vs. Projection Boundary (2023 / 2024 Break)
 - A critical finding for time series modeling: **Historical estimates (1950–2023)** contain stochastic annual volatility ($\text{median } |\Delta LEx| = 0.29$ years).
 - In contrast, **UN Medium Projections (2024–2100)** are deterministic, smoothed model outputs ($\text{median } |\Delta LEx| = 0.16$ years, Mann-Whitney $p < 10^{-120}$).
-- 100% of countries have strictly monotonic projected life expectancy trajectories from 2024 to 2100, compared to 0.4% in the historical record.
+- Caveat: the 2014–2023 window contains the 2020–2022 COVID-19 shock; using 2014–2019 the estimate-period median is 0.22 years, still above the projection's 0.16.
+- 100% of countries have monotonic projected life expectancy trajectories from 2024 to 2100, compared to 0.4% in the historical record.
 
-![Estimate vs Projection Boundary](file:///Users/idilbukretuzkaya/Desktop/2026%20ASA%20DataQuest/eda/figures/f18_estimate_projection_boundary.png)
+![Estimate vs Projection Boundary](figures/f18_estimate_projection_boundary.png)
 
 ---
 
@@ -142,7 +143,7 @@ The following **8 medium-to-high complexity research questions** are formulated 
 
 ### 🔬 Question 7: The Vanishing Female Longevity Advantage: Convergence or Divergence?
 - **Core Hypothesis:** Why has the male-female life expectancy gap ($\Delta LEx = LExFemale - LExMale$) compressed in developed nations over recent decades while expanding or stagnating in post-Soviet and developing nations? What explains the historical anomaly of male longevity exceeding female longevity in South Asia (Bangladesh, India, Pakistan prior to the 1990s)?
-- **Methodology & Complexity:** Medium-High complexity. Two-way Fixed Effects (TWFE) and decomposition analysis of the sex differential in adult mortality ($Q1550Male - Q1550Female$) and infant mortality ($Q0040$), examining structural structural shifts across decades.
+- **Methodology & Complexity:** Medium-High complexity. Two-way Fixed Effects (TWFE) and decomposition analysis of the sex differential in adult mortality ($Q1550Male - Q1550Female$) and premature mortality before age 40 ($Q0040$), examining structural shifts across decades.
 
 ---
 
@@ -158,11 +159,11 @@ All cleaning scripts, data files, tables, and figures have been generated and st
 
 | Path | Description |
 |:---|:---|
-| [`eda/01_clean_data.py`](file:///Users/idilbukretuzkaya/Desktop/2026%20ASA%20DataQuest/eda/01_clean_data.py) | Fully automated, asserted cleaning pipeline script |
-| [`eda/02_eda_analysis.py`](file:///Users/idilbukretuzkaya/Desktop/2026%20ASA%20DataQuest/eda/02_eda_analysis.py) | Comprehensive statistical and exploratory analysis script |
-| [`eda/region_mapping.py`](file:///Users/idilbukretuzkaya/Desktop/2026%20ASA%20DataQuest/eda/region_mapping.py) | Region/Sub-Region resolution module with name aliases |
-| [`data/clean/wpp2024_countries_clean.csv`](file:///Users/idilbukretuzkaya/Desktop/2026%20ASA%20DataQuest/data/clean/wpp2024_countries_clean.csv) | Cleaned country-level panel (237 countries $\times$ 151 years $\times$ 75 columns) |
-| [`data/clean/wpp2024_aggregates.csv`](file:///Users/idilbukretuzkaya/Desktop/2026%20ASA%20DataQuest/data/clean/wpp2024_aggregates.csv) | Separated regional/global aggregates for reference |
-| [`data/clean/country_regions.csv`](file:///Users/idilbukretuzkaya/Desktop/2026%20ASA%20DataQuest/data/clean/country_regions.csv) | Master regional mapping lookup |
-| [`eda/tables/`](file:///Users/idilbukretuzkaya/Desktop/2026%20ASA%20DataQuest/eda/tables/) | 13 detailed CSV/JSON summary tables & audit logs |
-| [`eda/figures/`](file:///Users/idilbukretuzkaya/Desktop/2026%20ASA%20DataQuest/eda/figures/) | 20 publication-quality visualization figures (`f01`–`f20`) |
+| [`eda/01_clean_data.py`](01_clean_data.py) | Fully automated, asserted cleaning pipeline script |
+| [`eda/02_eda_analysis.py`](02_eda_analysis.py) | Comprehensive statistical and exploratory analysis script |
+| [`eda/region_mapping.py`](region_mapping.py) | Region/Sub-Region resolution module with name aliases |
+| [`data/clean/wpp2024_countries_clean.csv`](../data/clean/wpp2024_countries_clean.csv) | Cleaned country-level panel (237 countries $\times$ 151 years $\times$ 75 columns) |
+| [`data/clean/wpp2024_aggregates.csv`](../data/clean/wpp2024_aggregates.csv) | Separated regional/global aggregates for reference |
+| [`data/clean/country_regions.csv`](../data/clean/country_regions.csv) | Master regional mapping lookup |
+| [`eda/tables/`](tables/) | 13 detailed CSV/JSON summary tables & audit logs |
+| [`eda/figures/`](figures/) | 20 publication-quality visualization figures (`f01`–`f20`) |

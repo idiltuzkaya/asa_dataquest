@@ -1,0 +1,21 @@
+{
+  "implementation": "Python csv/gzip/Decimal, no pandas, independent formula evaluation",
+  "raw_rows_streamed": 747279,
+  "numeric_comparisons": 11100,
+  "max_csv_rounding_error_thousands": "0",
+  "counts": {
+    "2050": {
+      "low_fertility": 130,
+      "low_and_growing": 64
+    },
+    "2075": {
+      "low_fertility": 130,
+      "low_and_growing": 46
+    },
+    "2100": {
+      "low_fertility": 130,
+      "low_and_growing": 28
+    }
+  },
+  "passed": true
+}
